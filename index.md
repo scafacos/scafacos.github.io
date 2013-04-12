@@ -3,7 +3,6 @@ title: ScaFaCoS
 layout: main
 ---
 
-ScaFaCoS Homepage
-=================
+# ScaFaCoS Homepage
 
 This is the homepage of **ScaFaCoS**.

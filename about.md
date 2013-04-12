@@ -3,7 +3,7 @@ title: About
 layout: main
 ---
 
-##Short description
+## Short description
 
 ScaFaCoS is a library of scalable fast coulomb solvers.
 
@@ -17,7 +17,7 @@ thousands of processors.
 You can freely [**download**](./download.html) the library. If
 you use it in your research, please cite our [publication](./publications.html).
 
-##More information
+## More information
 
 This homepage contains a short overview on the <a href="/methods.html">methods</a>
 available within the library. For more information, we refer to our
