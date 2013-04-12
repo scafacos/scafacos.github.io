@@ -4,12 +4,16 @@ layout: main
 ---
 
 Mailing Lists
+=============
 
 User's mailing list
+-------------------
 
 Developer's mailing list
+------------------------
 
 Bugs
+====
 
 Before reporting a bug query the bug database whether the bug has already been reported.
 
