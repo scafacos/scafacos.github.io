@@ -3,36 +3,28 @@ title: Partners
 layout: main
 ---
 
-<h2>Coordinator</h2>
+##Coordinator
 
-<ul>
-	<li>Research Centre Jülich<br/>
-	Institute for Advance Simulation<br/>
-	Jülich Supercomputing Centre<br/>
-	D-52425 Jülich</li>
-</ul>
+Research Centre Jülich  
+Institute for Advance Simulation  
+Jülich Supercomputing Centre  
+D-52425 Jülich
 
-<h2>Academic Partners</h2>
+##Academic Partners
 
-<ul>
-	<li>University of Bonn</li>
-	<li>University of Chemnitz</li>
-	<li>University of Stuttgart</li>
-	<li>University of Wuppertal</li>
-</ul>
+* University of Bonn
+* University of Chemnitz
+* University of Stuttgart
+* University of Wuppertal
 
-<h2>Associated Research Centre Partners</h2>
+##Associated Research Centre Partners
 
-<ul>
-	<li>Fraunhofer Institute SCAI<br/>
-	St. Augustin</li>
-	<li>Max-Planck Institute for Polymerscience Mainz</li>
-</ul>
+* Fraunhofer Institute SCAI  
+	St. Augustin
+* Max-Planck Institute for Polymerscience Mainz
 
-<h2>Associated Industrial Partners</h2>
+##Associated Industrial Partners
 
-<ul>
-	<li>BASF</li>
-	<li>Cognis</li>
-	<li>IBM</li>
-</ul>
+* BASF
+* Cognis
+* IBM
