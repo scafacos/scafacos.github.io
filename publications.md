@@ -3,12 +3,15 @@ title: Publications
 layout: main
 ---
 
-##Project publication
+=======
+Articles
+========
 
-##Further articles
+Theses
+======
 
-##Thesis
+Talks
+=====
 
-##Talks
-
-##Miscellaneous
+Miscellaneous
+=============
