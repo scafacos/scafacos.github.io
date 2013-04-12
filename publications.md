@@ -4,9 +4,13 @@ layout: main
 ---
 
 Articles
+========
 
-Thesis
+Theses
+======
 
 Talks
+=====
 
 Miscellaneous
+=============
