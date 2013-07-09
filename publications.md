@@ -11,13 +11,18 @@ A sample BibTeX entry is provided [here](./files/scafacos.bib).
 
 ## Articles
 
-* Pippig, M., 
-[PFFT - An Extension of FFTW to Massively Parallel Architectures](http://www-user.tu-chemnitz.de/~mpip/paper/PFFT.pdf),
-SIAM J. Sci. Comput., 35(3), C213-C236, 2013 
+* A. Arnold, M. Bolten, H. Dachsel, F. Fahrenberger, F. Gähler, R. Halver, F. Heber, M. Hofmann, C. Holm, J. Iseringhausen, I. Kabadshow, O. Lenz, M. Pippig, D. Potts und G. Sutmann:
+A Comparison of Scalable Fast Methods for Long-Range Interactions,
+Preprint, 2013.
+[![BibTeX](./files/pic/icon_bibtex_32x32.png "Download BibTeX entry")](./files/bibtex/ArBoDa13.bib)
 
-* Pippig, M. and Potts, D. 
+* M. Pippig:
+[PFFT - An Extension of FFTW to Massively Parallel Architectures](http://www-user.tu-chemnitz.de/~mpip/paper/PFFT.pdf),
+SIAM J. Sci. Comput., 35(3), C213-C236, 2013. 
+
+* M. Pippig and D. Potts: 
 [Parallel Three-Dimensional Nonequispaced Fast Fourier Transforms and Their Application to Particle Simulation](http://www-user.tu-chemnitz.de/~potts/paper/pnfft.pdf),
-SIAM J. Sci. Comput., accepted, 2013 
+SIAM J. Sci. Comput., accepted, 2013. 
 
 ## Proceedings
 
