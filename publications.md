@@ -7,7 +7,7 @@ layout: main
 
 If you are using the library for your research, please cite this homepage.
 
-A sample BibTeX entry is provided [here](./files/scafacos.bib).
+A sample BibTeX entry is provided [here](./files/bibtex/libfcs.bib).
 
 ## Articles
 
