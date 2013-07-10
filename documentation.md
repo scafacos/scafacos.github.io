@@ -3,7 +3,10 @@ title: Documentation
 layout: main
 ---
 
-## Manual [![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](./files/pub/libfcs_manual.pdf)
+## Manual 
+<!---
+[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](./files/pub/libfcs_manual.pdf)
+-->
 
 The latest official release of the manual can be downloaded at the link above.
 In addition, it can be found in the source tree at `doc/manual.pdf`.
