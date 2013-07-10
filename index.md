@@ -3,6 +3,8 @@ title: ScaFaCoS
 layout: main
 ---
 
+# ScaFaCoS - Scalable Fast Coulomb Solvers
+
 ## Short description
 
 **ScaFaCoS** is a library of scalable fast coulomb solvers.
