@@ -10,3 +10,4 @@ You can also [fork](https://github.com/scafacos/scafacos) the latest
 development code on github or clone the repository at
 
 	git clone git://github.com/scafacos/scafacos.git
+
