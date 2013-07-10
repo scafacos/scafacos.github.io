@@ -3,6 +3,7 @@ title: Publications
 layout: main
 ---
 
+<!---
 ## Citing ScaFaCoS
 
 If you are using the library for your research, please cite this homepage with the following sample BibTeX entry.
@@ -74,3 +75,5 @@ In: 2009 Proceedings of the JSC Guest Student Programme on Scientific Computing,
 **Domain-Force-Decomposition for Load-Balancing Molecular Dynamics**.
 In: 2009 Proceedings of the JSC Guest Student Programme on Scientific Computing, R. Speck (Eds), Jülich Supercomputing Centre Technical Report IB-2009-04, 2009.
 [![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www.fz-juelich.de/ias/jsc/EN/Career/Gueststudentprogramme/Previous_years/2009/proceedings.pdf?__blob=publicationFile)
+
+-->
