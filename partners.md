@@ -13,7 +13,7 @@ D-52425 Jülich
 ## Academic Partners
 
 * University of Bonn
-* University of Chemnitz
+* Chemnitz University of Technology
 * University of Stuttgart
 * University of Wuppertal
 
