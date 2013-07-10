@@ -6,7 +6,7 @@ layout: main
 
 Corresponding developers
 ------------------------
-
+<!---
 <table><tr>
   <td>
     <img src='files/pic/mpip_2008_150x200px.jpg' alt='Picture of Michael Pippig' height="100" border='0'/>
@@ -48,5 +48,5 @@ SIAM J. Sci. Comput., accepted, 2013.
   <td style='width:32px'><a href='files/bibtex/PiPo13.bib'><img src='files/pic/icon_bibtex_32x32.png' alt='download BibTeX' border='0'/></a></td>
 </tr></table>
 
-
+-->
 
