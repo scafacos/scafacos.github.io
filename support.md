@@ -3,7 +3,6 @@ title: Support
 layout: main
 ---
 
-=======
 Mailing Lists
 =============
 
