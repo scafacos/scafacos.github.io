@@ -24,7 +24,7 @@ If you didn't found your bug in the database then report the bug.
 Corresponding developers
 ------------------------
 
-<a id="contact:mpip"></a>
+<a id="mpip"></a>
 <table><tr>
   <td>
     <img src='files/pic/mpip_2008_150x200px.jpg' alt='Picture of Michael Pippig' height="100" border='0'/>
