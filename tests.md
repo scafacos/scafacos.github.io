@@ -6,6 +6,17 @@ layout: main
 
 Corresponding developers
 ------------------------
+
+<table><tr>
+  <td>
+    <img src='files/pic/mpip_2008_150x200px.jpg' alt='Picture of Michael Pippig' height="150" border='0'/>
+    <a id="mpip"></a>
+  </td><td valign="top">
+    <b>Michael Pippig</b><br />
+  </td>
+</tr></table>
+
+<!---
 <table><tr>
   <td>
     <img src='files/pic/mpip_2008_150x200px.jpg' alt='Picture of Michael Pippig' height="150" border='0'/>
@@ -25,6 +36,8 @@ Corresponding developers
     Michael is the corresponding developer of the P<sup>2</sup>NFFT method.
   </td>
 </tr></table>
+-->
+
 
 <!---
 * M. Pippig and D. Potts:
