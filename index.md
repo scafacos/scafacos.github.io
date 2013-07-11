@@ -5,7 +5,7 @@ layout: main
 
 # ScaFaCoS - Scalable Fast Coulomb Solvers
 
-## Short description
+### About the Library
 
 **ScaFaCoS** is a library of scalable fast coulomb solvers.
 
@@ -19,9 +19,15 @@ thousands of processors.
 You can freely [**download**](./download.html) the library. If
 you use it in your research, please cite our [publication](./publications.html).
 
-This work was supported by the German Ministery of Science and Education (BMBF) under grant 01IH08001.
 
-## More information
+### Funding
+
+- This work was supported by the German Ministery of Science and Education (BMBF) under grant 01IH08001.
+- Parts of this work were supported by the German Science Foundation (DFG) via the SFB 716 program.
+- We are grateful to the J&uuml;lich Supercomputing Center for providing the computational
+  resources on J&uuml;lich Blue Gene/P (JUGENE) and J&uuml;lich Research on Petaflop Architectures (JUROPA).
+
+### More Information
 
 This homepage contains a short overview on the <a href="/methods.html">methods</a>
 available within the library. For more information, we refer to our
