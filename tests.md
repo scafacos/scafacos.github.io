@@ -13,6 +13,16 @@ Corresponding developers
     <a id="mpip"></a>
   </td><td valign="top">
     <b>Michael Pippig</b><br />
+    <table><tr>
+      <td> Affiliation </td>
+      <td> Chemnitz University of Technology </td>
+    </tr><tr>
+      <td> Email </td>
+      <td> <a href="mailto:michael.pippig@mathematik.tu-chemnitz.de">michael.pippig@mathematik.tu-chemnitz.de</a> </td>
+    </tr><tr>
+      <td> Homepage </td>
+      <td> <a href="www.tu-chemnitz.de/~mpip">www.tu-chemnitz.de/~mpip</td>
+    </tr></table>
   </td>
 </tr></table>
 
