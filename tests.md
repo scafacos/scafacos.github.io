@@ -6,18 +6,27 @@ layout: main
 
 Corresponding developers
 ------------------------
-<!---
 <table><tr>
   <td>
-    <img src='files/pic/mpip_2008_150x200px.jpg' alt='Picture of Michael Pippig' height="100" border='0'/>
+    <img src='files/pic/mpip_2008_150x200px.jpg' alt='Picture of Michael Pippig' height="150" border='0'/>
     <a id="mpip"></a>
-  </td><td>
-    Michael is the corresponding developer of the P2NFFT method.
+  </td><td valign="top">
+    <b>Michael Pippig</b><br />
+    <table><tr>
+      <td> Affiliation </td>
+      <td> Chemnitz University of Technology </td>
+    </tr><tr>
+      <td> Email </td>
+      <td> <a href="mailto:michael.pippig@mathematik.tu-chemnitz.de">michael.pippig@mathematik.tu-chemnitz.de</a> </td>
+    </tr><tr>
+      <td> Homepage </td>
+      <td> <a href="www.tu-chemnitz.de/~mpip">www.tu-chemnitz.de/~mpip</td>
+    </tr></table>
+    Michael is the corresponding developer of the P<sup>2</sup>NFFT method.
   </td>
 </tr></table>
 
-
-
+<!---
 * M. Pippig and D. Potts:
 **Parallel Three-Dimensional Nonequispaced Fast Fourier Transforms and Their Application to Particle Simulation**,
 SIAM J. Sci. Comput., accepted, 2013. 
