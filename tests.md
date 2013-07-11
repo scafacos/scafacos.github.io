@@ -38,7 +38,7 @@ Corresponding developers
       <td> University of Stuttgart </td>
     </tr><tr>
       <td> Email: </td>
-      <td> <a href="mailto:mail">mail/a> </td>
+      <td> <a href="mailto:mail">mail</a> </td>
     </tr><tr>
       <td> Homepage: </td>
       <td> <a href="homepage">homepage</a> </td>
