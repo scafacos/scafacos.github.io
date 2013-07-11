@@ -5,7 +5,6 @@ layout: main
 
 Method overview.
 
-<!---
 ## FMM
 
 ## MEMD
@@ -26,4 +25,3 @@ The corresponding developer of this method is [Michael Pippig](./support.md#mpip
 ## PP3MG
 
 ## VMG
--->
