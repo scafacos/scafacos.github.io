@@ -11,7 +11,7 @@ Corresponding developers
   <td>
     <img src='files/pic/mpip_2008_150x200px.jpg' alt='Picture of Michael Pippig' height="100" border='0'/>
     <a id="mpip"></a>
-  </td><td valign="top" cellpadding="5">
+  </td><td valign="top">
     <b>Michael Pippig</b><br />
     <table><tr>
       <td> Affiliation </td>
