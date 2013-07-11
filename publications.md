@@ -10,7 +10,8 @@ If you are using the library for your research, please cite this homepage with t
 
 ## Articles
 
-* A. Arnold, M. Bolten, H. Dachsel, F. Fahrenberger, F. Gähler, R. Halver, F. Heber, M. Hofmann, C. Holm, J. Iseringhausen, I. Kabadshow, O. Lenz, M. Pippig, D. Potts und G. Sutmann:
+* A. Arnold, M. Bolten, H. Dachsel, F. Fahrenberger, F. Gähler, R. Halver, F. Heber, M. Hofmann,
+C. Holm, J. Iseringhausen, I. Kabadshow, O. Lenz, M. Pippig, D. Potts and G. Sutmann:
 **A Comparison of Scalable Fast Methods for Long-Range Interactions**,
 Preprint, 2013.
 [![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](./files/pub/ArBoDa13.pdf)
