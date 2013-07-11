@@ -9,9 +9,9 @@ Corresponding developers
 
 <table><tr>
   <td>
-    <img src='files/pic/mpip_2008_150x200px.jpg' alt='Picture of Michael Pippig' height="150" border='0'/>
+    <img src='files/pic/mpip_2008_150x200px.jpg' alt='Picture of Michael Pippig' height="100" border='0'/>
     <a id="mpip"></a>
-  </td><td valign="top">
+  </td><td valign="top" cellpadding="5">
     <b>Michael Pippig</b><br />
     <table><tr>
       <td> Affiliation </td>
@@ -21,7 +21,7 @@ Corresponding developers
       <td> <a href="mailto:michael.pippig@mathematik.tu-chemnitz.de">michael.pippig@mathematik.tu-chemnitz.de</a> </td>
     </tr><tr>
       <td> Homepage </td>
-      <td> <a href="www.tu-chemnitz.de/~mpip">www.tu-chemnitz.de/~mpip</td>
+      <td> <a href="www.tu-chemnitz.de/~mpip">www.tu-chemnitz.de/~mpip</a> </td>
     </tr></table>
   </td>
 </tr></table>
