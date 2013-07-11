@@ -7,6 +7,7 @@ layout: main
 Corresponding developers
 ------------------------
 
+<!---
 This is a list of the corresponding developers of
 - [FMM](#contact:fmm)
 - [MEMD](#contact:memd)
@@ -15,6 +16,7 @@ This is a list of the corresponding developers of
 - [PEPC](#contact:pepc)
 - [PP3MG](#contact:pp3mg)
 - [VMG](#contact:vmg)
+-->
 
 <table border='0' cellpadding='10'><tr>
   <td width="140">
