@@ -3,6 +3,7 @@ title: Partners
 layout: main
 ---
 
+<!---
 ## Coordinator
 
 Research Centre Jülich  
@@ -28,3 +29,4 @@ D-52425 Jülich
 * BASF
 * Cognis
 * IBM
+-->
