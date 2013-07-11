@@ -3,7 +3,6 @@ title: ScaFaCoS
 layout: main
 ---
 
-<!---
 # ScaFaCoS - Scalable Fast Coulomb Solvers
 
 ## Short description
@@ -28,5 +27,3 @@ This homepage contains a short overview on the <a href="/methods.html">methods</
 available within the library. For more information, we refer to our
 [publications](./publications.html), the [support](./support.html), and the library
 [documentation](./documentation.html).
-
--->
