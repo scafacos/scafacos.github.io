@@ -20,13 +20,13 @@ Preprint, 2013.
 * M. Pippig:
 **PFFT - An Extension of FFTW to Massively Parallel Architectures**,
 SIAM J. Sci. Comput., 35(3), C213-C236, 2013. 
-[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www-user.tu-chemnitz.de/~mpip/paper/PFFT.pdf)
+[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www-user.tu-chemnitz.de/~mpip/paper/PFFT_SIAM_88588.pdf)
 [![BibTeX](./files/pic/icon_bibtex_32x32.png "Download BibTeX entry")](./files/bibtex/Pi13.bib)
 
 * M. Pippig and D. Potts:
 **Parallel Three-Dimensional Nonequispaced Fast Fourier Transforms and Their Application to Particle Simulation**,
 SIAM J. Sci. Comput., accepted, 2013. 
-[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www-user.tu-chemnitz.de/~potts/paper/pnfft.pdf)
+[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www-user.tu-chemnitz.de/~potts/paper/PNFFT.pdf)
 [![BibTeX](./files/pic/icon_bibtex_32x32.png "Download BibTeX entry")](./files/bibtex/PiPo13.bib)
 
 
