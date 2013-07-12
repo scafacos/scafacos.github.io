@@ -85,7 +85,7 @@ This is a list of the corresponding developers of
       <td> <a href="mailto:michael.pippig@mathematik.tu-chemnitz.de">michael.pippig@mathematik.tu-chemnitz.de</a> </td>
     </tr><tr>
       <td> Homepage: </td>
-      <td> <a href="www.tu-chemnitz.de/~mpip">www.tu-chemnitz.de/~mpip</a> </td>
+      <td> <a href="http://www.tu-chemnitz.de/~mpip">www.tu-chemnitz.de/~mpip</a> </td>
     </tr></table>
   </td>
 </tr></table>
