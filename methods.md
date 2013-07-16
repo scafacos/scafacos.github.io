@@ -30,4 +30,11 @@ The corresponding developer of this method is [Matthias Winkel](./support.html#p
 The corresponding developer of this method is [Matthias Bolten](./support.html#pp3mg).
 
 ## VMG
-The corresponding developer of this method is [Frederik Heber](./support.html#vmg).
+The versatile multi grid (VMG) is a multi-grid based method implemented in C++
+with strong emphasis on modularity in terms of employed iterative
+solver, domain decomposition, and interpolation schemes. It is a general framework
+for solving PDEs on multi-core architectures and offers a range of modules for
+plugging together a suitable multi-grid algorithm. For Coulomb interactions so
+far only periodic boundary conditions are supported.
+
+The corresponding developer of this method is [Julian Iseringhausen](./support.html#vmg).
