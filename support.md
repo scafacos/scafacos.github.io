@@ -149,10 +149,10 @@ This is a list of the corresponding developers of
 
 <table border='0' cellpadding='10'><tr>
   <td width="140">
-    <img src='files/pic/.jpg' alt='Picture of Frederik Heber' height='160' width='120' border='0'/>
+    <img src='files/pic/.jpg' alt='Picture of Julian Iseringhausen' height='160' width='120' border='0'/>
     <a id="contact:vmg"></a>
   </td><td valign="top">
-    <b>Frederik Heber</b> is the corresponding developer of the VMG method.<br /><br />
+    <b>Julian Iseringhausen</b> is the corresponding developer of the VMG method.<br /><br />
     <table border='0' cellpadding='3'><tr>
       <td> Affiliation: </td>
       <td> University of Bonn </td>
