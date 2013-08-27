@@ -41,7 +41,7 @@ This is a list of the corresponding developers of
     <b>Ivo Kabadshow</b> is the corresponding developer of the FMM method.<br /><br />
     <table border='0' cellpadding='3'><tr>
       <td> Affiliation: </td>
-      <td> J&uuml;ich Research Center </td>
+      <td> J&uuml;lich Research Center </td>
     </tr><tr>
       <td> Email: </td>
       <td> <a href="mailto:mail">mail not available</a> </td>
@@ -111,19 +111,19 @@ This is a list of the corresponding developers of
 
 <table border='0' cellpadding='10'><tr>
   <td width="140">
-    <img src='files/pic/winkel.jpg' alt='Picture of Matthias Winkel' height='160' width='120' border='0'/>
+    <img src='http://www.fz-juelich.de/SharedDocs/Bilder/IAS/JSC/EN/staff/winkel_m.jpg?__blob=normal' alt='Picture of Mathias Winkel' width='120' border='0'/>
     <a id="contact:pepc"></a>
   </td><td valign="top">
-    <b>Matthias Winkel</b> is the corresponding developer of the PEPC method.<br /><br />
+    <b>Mathias Winkel</b> is the corresponding developer of the PEPC method.<br /><br />
     <table border='0' cellpadding='3'><tr>
       <td> Affiliation: </td>
-      <td> J&uuml;ich Research Center </td>
+      <td> J&uuml;lich Research Center </td>
     </tr><tr>
       <td> Email: </td>
-      <td> <a href="mailto:mail">mail not available</a> </td>
+      <td> <a href="mailto:pepc@fz-juelich.de">pepc@fz-juelich.de</a> </td>
     </tr><tr>
       <td> Homepage: </td>
-      <td> <a href="homepage">homepage not available</a> </td>
+      <td> <a href="http://www.fz-juelich.de/ias/jsc/pepc">http://www.fz-juelich.de/ias/jsc/pepc</a> </td>
     </tr></table>
   </td>
 </tr></table>
