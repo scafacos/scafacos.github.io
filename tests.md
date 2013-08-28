@@ -26,7 +26,7 @@ This is a list of the corresponding developers of
     <b>Ivo Kabadshow</b> is the corresponding developer of the FMM method.<br /><br />
     <table border='0' cellpadding='3'><tr>
       <td> Affiliation: </td>
-      <td> J&uuml;ich Research Center </td>
+      <td> J&uuml;lich Research Center </td>
     </tr><tr>
       <td> Email: </td>
       <td> <a href="mailto:mail">mail not available</a> </td>
@@ -96,13 +96,13 @@ This is a list of the corresponding developers of
 
 <table border='0' cellpadding='10'><tr>
   <td width="140">
-    <img src='files/pic/winkel.jpg' alt='Picture of Matthias Winkel' height='160' width='120' border='0'/>
+    <img src='files/pic/winkel.jpg' alt='Picture of Mathias Winkel' height='160' width='120' border='0'/>
     <a id="contact:pepc"></a>
   </td><td valign="top">
-    <b>Matthias Winkel</b> is the corresponding developer of the PEPC method.<br /><br />
+    <b>Mathias Winkel</b> is the corresponding developer of the PEPC method.<br /><br />
     <table border='0' cellpadding='3'><tr>
       <td> Affiliation: </td>
-      <td> J&uuml;ich Research Center </td>
+      <td> J&uuml;lich Research Center </td>
     </tr><tr>
       <td> Email: </td>
       <td> <a href="mailto:mail">mail not available</a> </td>

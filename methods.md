@@ -24,7 +24,7 @@ The corresponding developer of this method is [Michael Pippig](./support.html#p2
 The corresponding developer of this method is [Olaf Lenz](./support.html#p3m).
 
 ## PEPC
-The corresponding developer of this method is [Matthias Winkel](./support.html#pepc).
+The corresponding developer of this method is [Mathias Winkel](./support.html#pepc).
 
 ## PP3MG
 The corresponding developer of this method is [Matthias Bolten](./support.html#pp3mg).
