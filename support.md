@@ -35,7 +35,7 @@ This is a list of the corresponding developers of
 
 <table border='0' cellpadding='10'><tr>
   <td width="140">
-    <img src='files/pic/ivo.jpg' alt='Picture of Ivo Kabadshow' height='160' width='120' border='0'/>
+    <img src='files/pic/unknown.jpg' alt='Picture of Ivo Kabadshow' height='160' width='120' border='0'/>
     <a id="contact:fmm"></a>
   </td><td valign="top">
     <b>Ivo Kabadshow</b> is the corresponding developer of the FMM method.<br /><br />
@@ -130,7 +130,7 @@ This is a list of the corresponding developers of
 
 <table border='0' cellpadding='10'><tr>
   <td width="140">
-    <img src='files/pic/bolten.jpg' alt='Picture of Matthias Bolten' height='160' width='120' border='0'/>
+    <img src='files/pic/unkown.jpg' alt='Picture of Matthias Bolten' height='160' width='120' border='0'/>
     <a id="contact:pp3mg"></a>
   </td><td valign="top">
     <b>Matthias Bolten</b> is the corresponding developer of the PP3MG method.<br /><br />
@@ -149,7 +149,7 @@ This is a list of the corresponding developers of
 
 <table border='0' cellpadding='10'><tr>
   <td width="140">
-    <img src='files/pic/.jpg' alt='Picture of Julian Iseringhausen' height='160' width='120' border='0'/>
+    <img src='files/pic/unkown.jpg' alt='Picture of Julian Iseringhausen' height='160' width='120' border='0'/>
     <a id="contact:vmg"></a>
   </td><td valign="top">
     <b>Julian Iseringhausen</b> is the corresponding developer of the VMG method.<br /><br />
