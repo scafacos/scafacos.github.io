@@ -54,7 +54,7 @@ This is a list of the corresponding developers of
 
 <table border='0' cellpadding='10'><tr>
   <td width="140">
-    <img src='files/pic/flo.jpg' alt='Picture of Florian Fahrenberger' height='160' width='120' border='0'/>
+    <img src='files/pic/ffahrenberger.jpg' alt='Picture of Florian Fahrenberger' height='160' width='120' border='0'/>
     <a id="contact:memd"></a>
   </td><td valign="top">
     <b>Florian Fahrenberger</b> is the corresponding developer of the MEMD method.<br /><br />
@@ -63,17 +63,17 @@ This is a list of the corresponding developers of
       <td> University of Stuttgart </td>
     </tr><tr>
       <td> Email: </td>
-      <td> <a href="mailto:mail">mail not available</a> </td>
+      <td> <a href="mailto:Florian.Fahrenberger@icp.uni-stuttgart.de">Florian.Fahrenberger@icp.uni-stuttgart.de</a> </td>
     </tr><tr>
       <td> Homepage: </td>
-      <td> <a href="homepage">homepage not available</a> </td>
+      <td> <a href="http://www.icp.uni-stuttgart.de/~icp/Florian_Fahrenberger">http://www.icp.uni-stuttgart.de/~icp/Florian_Fahrenberger</a> </td>
     </tr></table>
   </td>
 </tr></table>
 
 <table border='0' cellpadding='10'><tr>
   <td width="140">
-    <img src='files/pic/mpip_2008_150x200px.jpg' alt='Picture of Michael Pippig' height='160' width='120' border='0'/>
+    <img src='files/pic/mpippig.jpg' alt='Picture of Michael Pippig' height='160' width='120' border='0'/>
     <a id="contact:p2nfft"></a>
   </td><td valign="top">
     <b>Michael Pippig</b> is the corresponding developer of the P<sup>2</sup>NFFT method.<br /><br />
@@ -85,7 +85,7 @@ This is a list of the corresponding developers of
       <td> <a href="mailto:michael.pippig@mathematik.tu-chemnitz.de">michael.pippig@mathematik.tu-chemnitz.de</a> </td>
     </tr><tr>
       <td> Homepage: </td>
-      <td> <a href="http://www.tu-chemnitz.de/~mpip">www.tu-chemnitz.de/~mpip</a> </td>
+      <td> <a href="http://www.tu-chemnitz.de/~mpip">http://www.tu-chemnitz.de/~mpip</a> </td>
     </tr></table>
   </td>
 </tr></table>
@@ -101,17 +101,17 @@ This is a list of the corresponding developers of
       <td> University of Stuttgart </td>
     </tr><tr>
       <td> Email: </td>
-      <td> <a href="mailto:mail">mail not available</a> </td>
+      <td> <a href="mailto:olenz@icp.uni-stuttgart.de">olenz@icp.uni-stuttgart.de</a> </td>
     </tr><tr>
       <td> Homepage: </td>
-      <td> <a href="homepage">homepage not available</a> </td>
+      <td> <a href="http://www.icp.uni-stuttgart.de/~icp/Olaf_Lenz">http://www.icp.uni-stuttgart.de/~icp/Olaf_Lenz</a> </td>
     </tr></table>
   </td>
 </tr></table>
 
 <table border='0' cellpadding='10'><tr>
   <td width="140">
-    <img src='http://www.fz-juelich.de/SharedDocs/Bilder/IAS/JSC/EN/staff/winkel_m.jpg?__blob=normal' alt='Picture of Mathias Winkel' width='120' border='0'/>
+    <img src='files/pic/mwinkel.jpg' alt='Picture of Mathias Winkel' width='120' border='0'/>
     <a id="contact:pepc"></a>
   </td><td valign="top">
     <b>Mathias Winkel</b> is the corresponding developer of the PEPC method.<br /><br />
