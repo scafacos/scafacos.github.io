@@ -7,7 +7,7 @@ layout: main
 Corresponding developers
 ------------------------
 
-<!---
+<!--
 This is a list of the corresponding developers of
 - [FMM](#contact:fmm)
 - [MEMD](#contact:memd)
