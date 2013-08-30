@@ -79,7 +79,7 @@ This is a list of the corresponding developers of
     <b>Michael Pippig</b> is the corresponding developer of the P<sup>2</sup>NFFT method.<br /><br />
     <table border='0' cellpadding='3'><tr>
       <td> Affiliation: </td>
-      <td> Chemnitz University of Technology </td>
+      <td> Technische Universit&auml;t Chemnitz </td>
     </tr><tr>
       <td> Email: </td>
       <td> <a href="mailto:michael.pippig@mathematik.tu-chemnitz.de">michael.pippig@mathematik.tu-chemnitz.de</a> </td>
