@@ -22,7 +22,7 @@ If you didn't found your bug in the database then report the bug.
 Corresponding developers
 ========================
 
-<!---
+<!--
 This is a list of the corresponding developers of
 - [FMM](#contact:fmm)
 - [MEMD](#contact:memd)
@@ -111,7 +111,7 @@ This is a list of the corresponding developers of
 
 <table border='0' cellpadding='10'><tr>
   <td width="140">
-    <img src='files/pic/mwinkel.jpg' alt='Picture of Mathias Winkel' width='120' border='0'/>
+    <img src='http://www.fz-juelich.de/SharedDocs/Bilder/IAS/JSC/EN/staff/winkel_m.jpg?__blob=normal' alt='Picture of Mathias Winkel' width='120' border='0'/>
     <a id="contact:pepc"></a>
   </td><td valign="top">
     <b>Mathias Winkel</b> is the corresponding developer of the PEPC method.<br /><br />
