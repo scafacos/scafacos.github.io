@@ -3,13 +3,13 @@ title: Partners
 layout: main
 ---
 
-<!---
+<!--
 ## Coordinator
 
-Research Centre Jülich  
+Research Centre J&uuml;lich  
 Institute for Advance Simulation  
-Jülich Supercomputing Centre  
-D-52425 Jülich
+J&uuml;lich Supercomputing Centre  
+D-52425 J&uuml;lich
 
 ## Academic Partners
 
