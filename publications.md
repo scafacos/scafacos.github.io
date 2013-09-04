@@ -25,7 +25,7 @@ SIAM J. Sci. Comput., 35(3), C213-C236, 2013.
 
 * M. Pippig and D. Potts:
 **Parallel Three-Dimensional Nonequispaced Fast Fourier Transforms and Their Application to Particle Simulation**,
-SIAM J. Sci. Comput., accepted, 2013. 
+SIAM J. Sci. Comput., 35(4), C411–C437, 2013.
 [![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www-user.tu-chemnitz.de/~potts/paper/PNFFT.pdf)
 [![BibTeX](./files/pic/icon_bibtex_32x32.png "Download BibTeX entry")](./files/bibtex/PiPo13.bib)
 
