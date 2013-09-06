@@ -111,6 +111,25 @@ This is a list of the corresponding developers of
 
 <table border='0' cellpadding='10'><tr>
   <td width="140">
+    <img src='files/pic/unknown.jpg' alt='Picture of Michael Hofmann' height='160' width='120' border='0'/>
+    <a id="contact:p2nfft"></a>
+  </td><td valign="top">
+    <b>Michael Hofmann</b> is the corresponding developer of the parallel sorting methods.<br /><br />
+    <table border='0' cellpadding='3'><tr>
+      <td> Affiliation: </td>
+      <td> Technische Universit&auml;t Chemnitz </td>
+    </tr><tr>
+      <td> Email: </td>
+      <td> <a href="mailto:mail">mail not available</a> </td>
+    </tr><tr>
+      <td> Homepage: </td>
+      <td> <a href="homepage">homepage not available</a> </td>
+    </tr></table>
+  </td>
+</tr></table>
+
+<table border='0' cellpadding='10'><tr>
+  <td width="140">
     <img src='http://www.fz-juelich.de/SharedDocs/Bilder/IAS/JSC/EN/staff/winkel_m.jpg?__blob=normal' alt='Picture of Mathias Winkel' width='120' border='0'/>
     <a id="contact:pepc"></a>
   </td><td valign="top">
