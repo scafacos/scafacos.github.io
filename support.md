@@ -112,7 +112,7 @@ This is a list of the corresponding developers of
 <table border='0' cellpadding='10'><tr>
   <td width="140">
     <img src='files/pic/unknown.jpg' alt='Picture of Michael Hofmann' height='160' width='120' border='0'/>
-    <a id="contact:p2nfft"></a>
+    <a id="contact:psort"></a>
   </td><td valign="top">
     <b>Michael Hofmann</b> is the corresponding developer of the parallel sorting methods.<br /><br />
     <table border='0' cellpadding='3'><tr>
