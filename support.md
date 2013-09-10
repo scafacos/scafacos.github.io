@@ -79,7 +79,7 @@ This is a list of the corresponding developers of
     <b>Michael Pippig</b> is the corresponding developer of the P<sup>2</sup>NFFT method.<br /><br />
     <table border='0' cellpadding='3'><tr>
       <td> Affiliation: </td>
-      <td> Chemnitz University of Technology </td>
+      <td> Technische Universit&auml;t Chemnitz </td>
     </tr><tr>
       <td> Email: </td>
       <td> <a href="mailto:michael.pippig@mathematik.tu-chemnitz.de">michael.pippig@mathematik.tu-chemnitz.de</a> </td>
@@ -105,6 +105,25 @@ This is a list of the corresponding developers of
     </tr><tr>
       <td> Homepage: </td>
       <td> <a href="http://www.icp.uni-stuttgart.de/~icp/Olaf_Lenz">http://www.icp.uni-stuttgart.de/~icp/Olaf_Lenz</a> </td>
+    </tr></table>
+  </td>
+</tr></table>
+
+<table border='0' cellpadding='10'><tr>
+  <td width="140">
+    <img src='files/pic/unknown.jpg' alt='Picture of Michael Hofmann' height='160' width='120' border='0'/>
+    <a id="contact:psort"></a>
+  </td><td valign="top">
+    <b>Michael Hofmann</b> is the corresponding developer of the parallel sorting methods.<br /><br />
+    <table border='0' cellpadding='3'><tr>
+      <td> Affiliation: </td>
+      <td> Technische Universit&auml;t Chemnitz </td>
+    </tr><tr>
+      <td> Email: </td>
+      <td> <a href="mailto:mail">mail not available</a> </td>
+    </tr><tr>
+      <td> Homepage: </td>
+      <td> <a href="homepage">homepage not available</a> </td>
     </tr></table>
   </td>
 </tr></table>
