@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.4"/>
-<title>ScaFaCoSfcs: /home5/m.winkel/workspace/scafacos/scafacos.git/src/fcs.h File Reference</title>
+<title>ScaFaCoSfcs: fcs_module::fcs_compute_near Interface Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,7 +47,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="../../files.html"><span>Files</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>Data&#160;Types&#160;List</span></a></li>
+      <li><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -68,8 +69,9 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../files.html"><span>File&#160;List</span></a></li>
-      <li><a href="../../globals.html"><span>Globals</span></a></li>
+      <li><a href="../../annotated.html"><span>Data&#160;Types&#160;List</span></a></li>
+      <li><a href="../../classes.html"><span>Data&#160;Types</span></a></li>
+      <li><a href="../../functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -92,7 +94,7 @@ $(document).ready(function(){initNavTree('d8/d84/a00001.html','../../');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -102,31 +104,72 @@ $(document).ready(function(){initNavTree('d8/d84/a00001.html','../../');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
-<div class="title">fcs.h File Reference</div>  </div>
+<div class="title">fcs_module::fcs_compute_near Interface Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;fcs_config.h&quot;</code><br/>
-<code>#include &quot;FCSDefinitions.h&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d2/de7/a00014_source.html">FCSResult_p.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d7/dd4/a00013_source.html">FCSInterface_p.h</a>&quot;</code><br/>
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for fcs.h:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a75782b8b4640c4b782d7827ad94be02d"><td class="memItemLeft" align="right" valign="top">type(c_ptr) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d84/a00001.html#a75782b8b4640c4b782d7827ad94be02d">fcs_compute_near</a> (handle, dist, pot, field)</td></tr>
+<tr class="separator:a75782b8b4640c4b782d7827ad94be02d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="../../da/d82/a00091_source.html#l00210">210</a> of file <a class="el" href="../../da/d82/a00091_source.html">fcs4fortran.f90</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a75782b8b4640c4b782d7827ad94be02d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">type(c_ptr) function <a class="el" href="../../d8/d84/a00001.html">fcs_compute_near</a> </td>
+          <td>(</td>
+          <td class="paramtype">type(c_ptr)&#160;</td>
+          <td class="paramname"><em>handle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(kind = fcs_real_kind_isoc)&#160;</td>
+          <td class="paramname"><em>dist</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(kind = fcs_real_kind_isoc)&#160;</td>
+          <td class="paramname"><em>pot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(kind = fcs_real_kind_isoc), dimension(3)&#160;</td>
+          <td class="paramname"><em>field</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../da/d82/a00091_source.html#l00210">210</a> of file <a class="el" href="../../da/d82/a00091_source.html">fcs4fortran.f90</a>.</p>
+
 </div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d7a/a00016.svg" width="418" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
-</div>
-</div>
-<p><a href="../../d8/d84/a00001_source.html">Go to the source code of this file.</a></p>
+<hr/>The documentation for this interface was generated from the following file:<ul>
+<li>/home5/m.winkel/workspace/scafacos/scafacos.git/src/fortran/<a class="el" href="../../da/d82/a00091_source.html">fcs4fortran.f90</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_091eaf780c5482072cf436895a543f9b.html">scafacos.git</a></li><li class="navelem"><a class="el" href="../../dir_d9a94db2ee947027ed05985d61b8c589.html">src</a></li><li class="navelem"><a class="el" href="../../d8/d84/a00001.html">fcs.h</a></li>
-    <li class="footer">Generated on Tue Sep 10 2013 16:08:40 for ScaFaCoSfcs by
+    <li class="navelem"><a class="el" href="../../d5/db6/a00042.html">fcs_module</a></li><li class="navelem"><a class="el" href="../../d8/d84/a00001.html">fcs_compute_near</a></li>
+    <li class="footer">Generated on Tue Sep 10 2013 23:54:32 for ScaFaCoSfcs by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.4"/>
-<title>ScaFaCoSfcs: /home5/m.winkel/workspace/scafacos/scafacos.git/src/fcs_p3m_p.h File Reference</title>
+<title>ScaFaCoSfcs: fcs_module::fcs_fmm_get_absrel Interface Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,7 +47,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="../../files.html"><span>Files</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>Data&#160;Types&#160;List</span></a></li>
+      <li><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -68,8 +69,9 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../files.html"><span>File&#160;List</span></a></li>
-      <li><a href="../../globals.html"><span>Globals</span></a></li>
+      <li><a href="../../annotated.html"><span>Data&#160;Types&#160;List</span></a></li>
+      <li><a href="../../classes.html"><span>Data&#160;Types</span></a></li>
+      <li><a href="../../functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -92,7 +94,7 @@ $(document).ready(function(){initNavTree('da/da0/a00009.html','../../');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -103,138 +105,36 @@ $(document).ready(function(){initNavTree('da/da0/a00009.html','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
-<div class="title">fcs_p3m_p.h File Reference</div>  </div>
+<div class="title">fcs_module::fcs_fmm_get_absrel Interface Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>file containing all p3m specific functions  
-<a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;FCSDefinitions.h&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d2/de7/a00014_source.html">FCSResult_p.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d7/dd4/a00013_source.html">FCSInterface_p.h</a>&quot;</code><br/>
-<code>#include &lt;math.h&gt;</code><br/>
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for fcs_p3m_p.h:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/de2/a00024.svg" width="324" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</div>
-<p><a href="../../da/da0/a00009_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ac01b1e6bc086a01d726bb48c0a8014cd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#ac01b1e6bc086a01d726bb48c0a8014cd">FCS_P3M_USE_ERFC_APPROXIMATION</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:ac01b1e6bc086a01d726bb48c0a8014cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a418df0bf74646aa068ea849c10b6560e"><td class="memItemLeft" align="right" valign="top">typedef fcs_float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#a418df0bf74646aa068ea849c10b6560e">fcs_p3m_near_parameters_t</a></td></tr>
-<tr class="memdesc:a418df0bf74646aa068ea849c10b6560e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The struct that keeps the parameters for the near field component of the method.  <a href="#a418df0bf74646aa068ea849c10b6560e">More...</a><br/></td></tr>
-<tr class="separator:a418df0bf74646aa068ea849c10b6560e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a368fecde5c94435615e5360867ae6773"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#a368fecde5c94435615e5360867ae6773">fcs_p3m_get_near_parameters</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, <a class="el" href="../../da/da0/a00009.html#a418df0bf74646aa068ea849c10b6560e">fcs_p3m_near_parameters_t</a> *near_params)</td></tr>
-<tr class="memdesc:a368fecde5c94435615e5360867ae6773"><td class="mdescLeft">&#160;</td><td class="mdescRight">extracts the parameters required to compute the near-field component of p3m from the method handle  <a href="#a368fecde5c94435615e5360867ae6773">More...</a><br/></td></tr>
-<tr class="separator:a368fecde5c94435615e5360867ae6773"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4dc86b586e761aee87dde84cc86b6b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#ab4dc86b586e761aee87dde84cc86b6b1">fcs_p3m_set_r_cut</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_float r_cut)</td></tr>
-<tr class="separator:ab4dc86b586e761aee87dde84cc86b6b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2ffc89d7919437017629c20cf0b432a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#aa2ffc89d7919437017629c20cf0b432a">fcs_p3m_set_r_cut_tune</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle)</td></tr>
-<tr class="separator:aa2ffc89d7919437017629c20cf0b432a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8857e43131da9058319e20ffb032baf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#a8857e43131da9058319e20ffb032baf6">fcs_p3m_get_r_cut</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_float *r_cut)</td></tr>
-<tr class="separator:a8857e43131da9058319e20ffb032baf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bc92acf74ad8244cc77010562aeec39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#a3bc92acf74ad8244cc77010562aeec39">fcs_p3m_set_alpha</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_float alpha)</td></tr>
-<tr class="separator:a3bc92acf74ad8244cc77010562aeec39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c287956b411a76379afc8c75e484584"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#a7c287956b411a76379afc8c75e484584">fcs_p3m_set_alpha_tune</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle)</td></tr>
-<tr class="separator:a7c287956b411a76379afc8c75e484584"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfe7e96414c82f830fd7e4f777941977"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#adfe7e96414c82f830fd7e4f777941977">fcs_p3m_get_alpha</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_float *alpha)</td></tr>
-<tr class="separator:adfe7e96414c82f830fd7e4f777941977"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb59c506db1cdd08f1252170d684f071"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#abb59c506db1cdd08f1252170d684f071">fcs_p3m_set_grid</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_int grid)</td></tr>
-<tr class="separator:abb59c506db1cdd08f1252170d684f071"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b98b1227becc46307e4f536db937e4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#a9b98b1227becc46307e4f536db937e4f">fcs_p3m_set_grid_tune</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle)</td></tr>
-<tr class="separator:a9b98b1227becc46307e4f536db937e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad47c1128d901797a7f2d299c6688d18c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#ad47c1128d901797a7f2d299c6688d18c">fcs_p3m_get_grid</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_int *grid)</td></tr>
-<tr class="separator:ad47c1128d901797a7f2d299c6688d18c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5148f0da0527bade39e08b92d2115748"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#a5148f0da0527bade39e08b92d2115748">fcs_p3m_set_cao</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_int cao)</td></tr>
-<tr class="separator:a5148f0da0527bade39e08b92d2115748"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba5b1dd48309686114aea0ea86141fdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#aba5b1dd48309686114aea0ea86141fdb">fcs_p3m_set_cao_tune</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle)</td></tr>
-<tr class="separator:aba5b1dd48309686114aea0ea86141fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a91b7d8ecb8dff9446ffdf219f78101"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#a5a91b7d8ecb8dff9446ffdf219f78101">fcs_p3m_get_cao</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_int *cao)</td></tr>
-<tr class="separator:a5a91b7d8ecb8dff9446ffdf219f78101"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cd11b249137c791f51e5b3d6d48ffa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#a8cd11b249137c791f51e5b3d6d48ffa0">fcs_p3m_require_total_energy</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_int total_energy)</td></tr>
-<tr class="separator:a8cd11b249137c791f51e5b3d6d48ffa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b5458c36b899a7913765ce2ddf7fff7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#a1b5458c36b899a7913765ce2ddf7fff7">fcs_p3m_get_total_energy</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_float *total_energy)</td></tr>
-<tr class="separator:a1b5458c36b899a7913765ce2ddf7fff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbb475c8c5ba9e45beb0c18d3027d28c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#afbb475c8c5ba9e45beb0c18d3027d28c">fcs_p3m_set_tolerance_field</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_float tolerance_field)</td></tr>
-<tr class="separator:afbb475c8c5ba9e45beb0c18d3027d28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20085b15679e242c4c9bb4e094a69afd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#a20085b15679e242c4c9bb4e094a69afd">fcs_p3m_set_tolerance_field_f</a> (void *handle, fcs_float tolerance_field, fcs_int *return_value)</td></tr>
-<tr class="separator:a20085b15679e242c4c9bb4e094a69afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b83c4a33b021eff17f2f600b0103ec2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#a7b83c4a33b021eff17f2f600b0103ec2">fcs_p3m_set_tolerance_field_tune</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle)</td></tr>
-<tr class="separator:a7b83c4a33b021eff17f2f600b0103ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a4fad2cdfd555b922bd4814a13c1b57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#a8a4fad2cdfd555b922bd4814a13c1b57">fcs_p3m_get_tolerance_field</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_float *tolerance_field)</td></tr>
-<tr class="separator:a8a4fad2cdfd555b922bd4814a13c1b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:abcbdf8906ae7308103ad3a028d72e6bf"><td class="memItemLeft" align="right" valign="top">type(c_ptr) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da0/a00009.html#abcbdf8906ae7308103ad3a028d72e6bf">fcs_fmm_get_absrel</a> (handle, absrel)</td></tr>
+<tr class="separator:abcbdf8906ae7308103ad3a028d72e6bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>file containing all p3m specific functions </p>
-<dl class="section author"><dt>Author</dt><dd>Rene Halver, Olaf Lenz </dd></dl>
-
-<p>Definition in file <a class="el" href="../../da/da0/a00009_source.html">fcs_p3m_p.h</a>.</p>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="ac01b1e6bc086a01d726bb48c0a8014cd"></a>
+<div class="textblock">
+<p>Definition at line <a class="el" href="../../da/d82/a00091_source.html#l00343">343</a> of file <a class="el" href="../../da/d82/a00091_source.html">fcs4fortran.f90</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="abcbdf8906ae7308103ad3a028d72e6bf"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FCS_P3M_USE_ERFC_APPROXIMATION&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../da/da0/a00009_source.html#l00041">41</a> of file <a class="el" href="../../da/da0/a00009_source.html">fcs_p3m_p.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="a418df0bf74646aa068ea849c10b6560e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef fcs_float <a class="el" href="../../da/da0/a00009.html#a418df0bf74646aa068ea849c10b6560e">fcs_p3m_near_parameters_t</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The struct that keeps the parameters for the near field component of the method. </p>
-<p>The struct can be obtained via <a class="el" href="../../da/da0/a00009.html#a368fecde5c94435615e5360867ae6773" title="extracts the parameters required to compute the near-field component of p3m from the method handle ...">fcs_p3m_get_near_parameters()</a> and is used in fcs_p3m_compute_near_potential(), fcs_p3m_compute_near_field() and fcs_p3m_compute_near(). </p>
-
-<p>Definition at line <a class="el" href="../../da/da0/a00009_source.html#l00055">55</a> of file <a class="el" href="../../da/da0/a00009_source.html">fcs_p3m_p.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="adfe7e96414c82f830fd7e4f777941977"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_get_alpha </td>
+          <td class="memname">type(c_ptr) function <a class="el" href="../../da/da0/a00009.html">fcs_fmm_get_absrel</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
+          <td class="paramtype">type(c_ptr)&#160;</td>
           <td class="paramname"><em>handle</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">fcs_float *&#160;</td>
-          <td class="paramname"><em>alpha</em>&#160;</td>
+          <td class="paramtype">integer(kind = fcs_integer_kind_isoc)&#160;</td>
+          <td class="paramname"><em>absrel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -244,450 +144,20 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a class="anchor" id="a5a91b7d8ecb8dff9446ffdf219f78101"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_get_cao </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_int *&#160;</td>
-          <td class="paramname"><em>cao</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Definition at line <a class="el" href="../../da/d82/a00091_source.html#l00343">343</a> of file <a class="el" href="../../da/d82/a00091_source.html">fcs4fortran.f90</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ad47c1128d901797a7f2d299c6688d18c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_get_grid </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_int *&#160;</td>
-          <td class="paramname"><em>grid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a368fecde5c94435615e5360867ae6773"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_get_near_parameters </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../da/da0/a00009.html#a418df0bf74646aa068ea849c10b6560e">fcs_p3m_near_parameters_t</a> *&#160;</td>
-          <td class="paramname"><em>near_params</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>extracts the parameters required to compute the near-field component of p3m from the method handle </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handle</td><td>the FCS-object, which contains the parameters </td></tr>
-    <tr><td class="paramname">near_params</td><td>the fcs_p3m_near_parameters_t object that will be updated with the near-field component parameters of the method. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>FCSResult-object containing the return state</dd></dl>
-<p>The struct can be obtained via <a class="el" href="../../da/da0/a00009.html#a368fecde5c94435615e5360867ae6773" title="extracts the parameters required to compute the near-field component of p3m from the method handle ...">fcs_p3m_get_near_parameters()</a> and is used in fcs_p3m_compute_near_potential(), fcs_p3m_compute_near_field() and fcs_p3m_compute_near(). Note that the set of near field parameters might change whenever any of the parameters of the method changes. Therefore make sure to update the near field parameters after each parameter change. </p>
-
-</div>
-</div>
-<a class="anchor" id="a8857e43131da9058319e20ffb032baf6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_get_r_cut </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float *&#160;</td>
-          <td class="paramname"><em>r_cut</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8a4fad2cdfd555b922bd4814a13c1b57"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_get_tolerance_field </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float *&#160;</td>
-          <td class="paramname"><em>tolerance_field</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1b5458c36b899a7913765ce2ddf7fff7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_get_total_energy </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float *&#160;</td>
-          <td class="paramname"><em>total_energy</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a8cd11b249137c791f51e5b3d6d48ffa0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_require_total_energy </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_int&#160;</td>
-          <td class="paramname"><em>total_energy</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a3bc92acf74ad8244cc77010562aeec39"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_set_alpha </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float&#160;</td>
-          <td class="paramname"><em>alpha</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a7c287956b411a76379afc8c75e484584"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_set_alpha_tune </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>)</td><td></td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a5148f0da0527bade39e08b92d2115748"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_set_cao </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_int&#160;</td>
-          <td class="paramname"><em>cao</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aba5b1dd48309686114aea0ea86141fdb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_set_cao_tune </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>)</td><td></td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="abb59c506db1cdd08f1252170d684f071"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_set_grid </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_int&#160;</td>
-          <td class="paramname"><em>grid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a9b98b1227becc46307e4f536db937e4f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_set_grid_tune </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>)</td><td></td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab4dc86b586e761aee87dde84cc86b6b1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_set_r_cut </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float&#160;</td>
-          <td class="paramname"><em>r_cut</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa2ffc89d7919437017629c20cf0b432a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_set_r_cut_tune </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>)</td><td></td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="afbb475c8c5ba9e45beb0c18d3027d28c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_set_tolerance_field </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float&#160;</td>
-          <td class="paramname"><em>tolerance_field</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a20085b15679e242c4c9bb4e094a69afd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void fcs_p3m_set_tolerance_field_f </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float&#160;</td>
-          <td class="paramname"><em>tolerance_field</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_int *&#160;</td>
-          <td class="paramname"><em>return_value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a7b83c4a33b021eff17f2f600b0103ec2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_p3m_set_tolerance_field_tune </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>)</td><td></td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this interface was generated from the following file:<ul>
+<li>/home5/m.winkel/workspace/scafacos/scafacos.git/src/fortran/<a class="el" href="../../da/d82/a00091_source.html">fcs4fortran.f90</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_091eaf780c5482072cf436895a543f9b.html">scafacos.git</a></li><li class="navelem"><a class="el" href="../../dir_d9a94db2ee947027ed05985d61b8c589.html">src</a></li><li class="navelem"><a class="el" href="../../da/da0/a00009.html">fcs_p3m_p.h</a></li>
-    <li class="footer">Generated on Tue Sep 10 2013 16:08:40 for ScaFaCoSfcs by
+    <li class="navelem"><a class="el" href="../../d5/db6/a00042.html">fcs_module</a></li><li class="navelem"><a class="el" href="../../da/da0/a00009.html">fcs_fmm_get_absrel</a></li>
+    <li class="footer">Generated on Tue Sep 10 2013 23:54:32 for ScaFaCoSfcs by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

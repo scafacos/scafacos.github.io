@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.4"/>
-<title>ScaFaCoSfcs: /home5/m.winkel/workspace/scafacos/scafacos.git/src/fcs_pepc_p.h File Reference</title>
+<title>ScaFaCoSfcs: fcs_module::fcs_fmm_get_balanceload Interface Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -47,7 +47,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
-      <li class="current"><a href="../../files.html"><span>Files</span></a></li>
+      <li class="current"><a href="../../annotated.html"><span>Data&#160;Types&#160;List</span></a></li>
+      <li><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -68,8 +69,9 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="../../files.html"><span>File&#160;List</span></a></li>
-      <li><a href="../../globals.html"><span>Globals</span></a></li>
+      <li><a href="../../annotated.html"><span>Data&#160;Types&#160;List</span></a></li>
+      <li><a href="../../classes.html"><span>Data&#160;Types</span></a></li>
+      <li><a href="../../functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -92,7 +94,7 @@ $(document).ready(function(){initNavTree('d7/dec/a00010.html','../../');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Data Structures</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -103,120 +105,36 @@ $(document).ready(function(){initNavTree('d7/dec/a00010.html','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a>  </div>
   <div class="headertitle">
-<div class="title">fcs_pepc_p.h File Reference</div>  </div>
+<div class="title">fcs_module::fcs_fmm_get_balanceload Interface Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>file containing all pepc specific functions (public version)  
-<a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;FCSDefinitions.h&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d2/de7/a00014_source.html">FCSResult_p.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d7/dd4/a00013_source.html">FCSInterface_p.h</a>&quot;</code><br/>
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for fcs_pepc_p.h:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/dfe/a00025.svg" width="298" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</div>
-<p><a href="../../d7/dec/a00010_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ab8e2155f902f003a4e6de755beefc5d9"><td class="memItemLeft" align="right" valign="top">typedef struct <br class="typebreak"/>
-fcs_pepc_parameters_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#ab8e2155f902f003a4e6de755beefc5d9">fcs_pepc_parameters</a></td></tr>
-<tr class="separator:ab8e2155f902f003a4e6de755beefc5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ae8b10400a071cede778f65309e17dd48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#ae8b10400a071cede778f65309e17dd48">fcs_pepc_set_epsilon</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_float epsilon)</td></tr>
-<tr class="memdesc:ae8b10400a071cede778f65309e17dd48"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to set the optional pepc epsilon parameter  <a href="#ae8b10400a071cede778f65309e17dd48">More...</a><br/></td></tr>
-<tr class="separator:ae8b10400a071cede778f65309e17dd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85eddf3c617b83182ce02f7439c8758c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#a85eddf3c617b83182ce02f7439c8758c">fcs_pepc_get_epsilon</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_float *epsilon)</td></tr>
-<tr class="memdesc:a85eddf3c617b83182ce02f7439c8758c"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to get the optional pepc epsilon parameter  <a href="#a85eddf3c617b83182ce02f7439c8758c">More...</a><br/></td></tr>
-<tr class="separator:a85eddf3c617b83182ce02f7439c8758c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ea685c2262c18e1e426dc728292ee18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#a1ea685c2262c18e1e426dc728292ee18">fcs_pepc_set_theta</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_float theta)</td></tr>
-<tr class="memdesc:a1ea685c2262c18e1e426dc728292ee18"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to set the optional pepc theta parameter  <a href="#a1ea685c2262c18e1e426dc728292ee18">More...</a><br/></td></tr>
-<tr class="separator:a1ea685c2262c18e1e426dc728292ee18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affe9bb2fa6916b34ce141385f3a3857e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#affe9bb2fa6916b34ce141385f3a3857e">fcs_pepc_get_theta</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_float *theta)</td></tr>
-<tr class="memdesc:affe9bb2fa6916b34ce141385f3a3857e"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to get the optional pepc theta parameter  <a href="#affe9bb2fa6916b34ce141385f3a3857e">More...</a><br/></td></tr>
-<tr class="separator:affe9bb2fa6916b34ce141385f3a3857e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad28997bd9ac6bee16dab5e64aada05c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#ad28997bd9ac6bee16dab5e64aada05c0">fcs_pepc_set_debug_level</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_int level)</td></tr>
-<tr class="memdesc:ad28997bd9ac6bee16dab5e64aada05c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to set the pepc debug level  <a href="#ad28997bd9ac6bee16dab5e64aada05c0">More...</a><br/></td></tr>
-<tr class="separator:ad28997bd9ac6bee16dab5e64aada05c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad23ebea46437088b76844d6bd5fc8f9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#ad23ebea46437088b76844d6bd5fc8f9f">fcs_pepc_get_debug_level</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_int *level)</td></tr>
-<tr class="memdesc:ad23ebea46437088b76844d6bd5fc8f9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to get the pepc debug level  <a href="#ad23ebea46437088b76844d6bd5fc8f9f">More...</a><br/></td></tr>
-<tr class="separator:ad23ebea46437088b76844d6bd5fc8f9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67a0787b8d4dbd9feea95e437b843c78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#a67a0787b8d4dbd9feea95e437b843c78">fcs_pepc_set_num_walk_threads</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_int num_walk_threads)</td></tr>
-<tr class="memdesc:a67a0787b8d4dbd9feea95e437b843c78"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to set pepcs number of walk threads per MPI rank  <a href="#a67a0787b8d4dbd9feea95e437b843c78">More...</a><br/></td></tr>
-<tr class="separator:a67a0787b8d4dbd9feea95e437b843c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add059706a41d2172a48e484da84ac647"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#add059706a41d2172a48e484da84ac647">fcs_pepc_get_num_walk_threads</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_int *num_walk_threads)</td></tr>
-<tr class="memdesc:add059706a41d2172a48e484da84ac647"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to get pepcs number of walk threads per MPI rank  <a href="#add059706a41d2172a48e484da84ac647">More...</a><br/></td></tr>
-<tr class="separator:add059706a41d2172a48e484da84ac647"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad690d05fd60f584f6606084c48f66fdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#ad690d05fd60f584f6606084c48f66fdd">fcs_pepc_set_load_balancing</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_int load_balancing)</td></tr>
-<tr class="memdesc:ad690d05fd60f584f6606084c48f66fdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">function for setting pepcs switch for load balancing  <a href="#ad690d05fd60f584f6606084c48f66fdd">More...</a><br/></td></tr>
-<tr class="separator:ad690d05fd60f584f6606084c48f66fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05437590fe07695829ac6a86deb968b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#a05437590fe07695829ac6a86deb968b4">fcs_pepc_get_load_balancing</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_int *load_balancing)</td></tr>
-<tr class="memdesc:a05437590fe07695829ac6a86deb968b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">function for getting pepcs switch for load balancing  <a href="#a05437590fe07695829ac6a86deb968b4">More...</a><br/></td></tr>
-<tr class="separator:a05437590fe07695829ac6a86deb968b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fdf1543f9eec47bf7ff6f50d59c7cd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#a7fdf1543f9eec47bf7ff6f50d59c7cd1">fcs_pepc_set_dipole_correction</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_int dipole_correction)</td></tr>
-<tr class="memdesc:a7fdf1543f9eec47bf7ff6f50d59c7cd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">function for setting pepcs switch for adding a dipole correction for periodic systems  <a href="#a7fdf1543f9eec47bf7ff6f50d59c7cd1">More...</a><br/></td></tr>
-<tr class="separator:a7fdf1543f9eec47bf7ff6f50d59c7cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9457c846f6cf8bb6ad94bdc34fe6a8a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#a9457c846f6cf8bb6ad94bdc34fe6a8a1">fcs_pepc_get_dipole_correction</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_int *dipole_correction)</td></tr>
-<tr class="memdesc:a9457c846f6cf8bb6ad94bdc34fe6a8a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">function for getting pepcs switch for adding a dipole correction for periodic systems  <a href="#a9457c846f6cf8bb6ad94bdc34fe6a8a1">More...</a><br/></td></tr>
-<tr class="separator:a9457c846f6cf8bb6ad94bdc34fe6a8a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15f3f8767d0dc74b70eaaaaf6bb80ca4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#a15f3f8767d0dc74b70eaaaaf6bb80ca4">fcs_pepc_set_npm</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_float npm)</td></tr>
-<tr class="memdesc:a15f3f8767d0dc74b70eaaaaf6bb80ca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to set the optional pepc npm (aka np_mult)  <a href="#a15f3f8767d0dc74b70eaaaaf6bb80ca4">More...</a><br/></td></tr>
-<tr class="separator:a15f3f8767d0dc74b70eaaaaf6bb80ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33a54af4b61619d612482b54c10c4249"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#a33a54af4b61619d612482b54c10c4249">fcs_pepc_get_npm</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_float *npm)</td></tr>
-<tr class="memdesc:a33a54af4b61619d612482b54c10c4249"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to get the optional pepc npm (aka np_mult)  <a href="#a33a54af4b61619d612482b54c10c4249">More...</a><br/></td></tr>
-<tr class="separator:a33a54af4b61619d612482b54c10c4249"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c4565dcb3e3f9eac40e33d48a5eec48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#a2c4565dcb3e3f9eac40e33d48a5eec48">fcs_pepc_setup</a> (<a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a> handle, fcs_float epsilon, fcs_float theta)</td></tr>
-<tr class="separator:a2c4565dcb3e3f9eac40e33d48a5eec48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21482459b5e28753e4fd91a3c350ef99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#a21482459b5e28753e4fd91a3c350ef99">fcs_pepc_setup_f</a> (void *handle, fcs_float epsilon, fcs_float theta, fcs_int level, fcs_int *return_value)</td></tr>
-<tr class="separator:a21482459b5e28753e4fd91a3c350ef99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aed9f6d0ad68e264c47b0cd11157bdd21"><td class="memItemLeft" align="right" valign="top">type(c_ptr) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dec/a00010.html#aed9f6d0ad68e264c47b0cd11157bdd21">fcs_fmm_get_balanceload</a> (handle, balanceload)</td></tr>
+<tr class="separator:aed9f6d0ad68e264c47b0cd11157bdd21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>file containing all pepc specific functions (public version) </p>
-<dl class="section author"><dt>Author</dt><dd>Rene Halver </dd></dl>
-
-<p>Definition in file <a class="el" href="../../d7/dec/a00010_source.html">fcs_pepc_p.h</a>.</p>
-</div><h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="ab8e2155f902f003a4e6de755beefc5d9"></a>
+<div class="textblock">
+<p>Definition at line <a class="el" href="../../da/d82/a00091_source.html#l00469">469</a> of file <a class="el" href="../../da/d82/a00091_source.html">fcs4fortran.f90</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="aed9f6d0ad68e264c47b0cd11157bdd21"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct fcs_pepc_parameters_t* <a class="el" href="../../d7/dec/a00010.html#ab8e2155f902f003a4e6de755beefc5d9">fcs_pepc_parameters</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/dec/a00010_source.html#l00035">35</a> of file <a class="el" href="../../d7/dec/a00010_source.html">fcs_pepc_p.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="ad23ebea46437088b76844d6bd5fc8f9f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_pepc_get_debug_level </td>
+          <td class="memname">type(c_ptr) function <a class="el" href="../../d7/dec/a00010.html">fcs_fmm_get_balanceload</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
+          <td class="paramtype">type(c_ptr)&#160;</td>
           <td class="paramname"><em>handle</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">fcs_int *&#160;</td>
-          <td class="paramname"><em>level</em>&#160;</td>
+          <td class="paramtype">integer(kind = c_long_long)&#160;</td>
+          <td class="paramname"><em>balanceload</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -226,563 +144,20 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>function to get the pepc debug level </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handle</td><td>FCS-object that contains the parameter </td></tr>
-    <tr><td class="paramname">level</td><td>user-set debug level of pepc solver </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the debug level </dd></dl>
+<p>Definition at line <a class="el" href="../../da/d82/a00091_source.html#l00469">469</a> of file <a class="el" href="../../da/d82/a00091_source.html">fcs4fortran.f90</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a9457c846f6cf8bb6ad94bdc34fe6a8a1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_pepc_get_dipole_correction </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_int *&#160;</td>
-          <td class="paramname"><em>dipole_correction</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>function for getting pepcs switch for adding a dipole correction for periodic systems </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handle</td><td>FCS-object that contains the parameter </td></tr>
-    <tr><td class="paramname">dipole_correction</td><td>if &gt;0 the dipole correction is enabled </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a85eddf3c617b83182ce02f7439c8758c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_pepc_get_epsilon </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float *&#160;</td>
-          <td class="paramname"><em>epsilon</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>function to get the optional pepc epsilon parameter </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handle</td><td>FCS-object that contains the parameter </td></tr>
-    <tr><td class="paramname">epsilon</td><td>epsilon (Plummer potential parameter) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>FCSResult-object containing the return state </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a05437590fe07695829ac6a86deb968b4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_pepc_get_load_balancing </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_int *&#160;</td>
-          <td class="paramname"><em>load_balancing</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>function for getting pepcs switch for load balancing </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handle</td><td>FCS-object that contains the parameter </td></tr>
-    <tr><td class="paramname">load_balancing</td><td>if &gt;0 load balancing is enabled. may only be activated if the frontend does not reorder any particles </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a33a54af4b61619d612482b54c10c4249"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_pepc_get_npm </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float *&#160;</td>
-          <td class="paramname"><em>npm</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>function to get the optional pepc npm (aka np_mult) </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handle</td><td>FCS-object that is modified </td></tr>
-    <tr><td class="paramname">npm</td><td>npm (aka np_mult) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>FCSResult-object containing the return state </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="add059706a41d2172a48e484da84ac647"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_pepc_get_num_walk_threads </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_int *&#160;</td>
-          <td class="paramname"><em>num_walk_threads</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>function to get pepcs number of walk threads per MPI rank </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handle</td><td>FCS-object that contains the parameter </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>num_walk_threads number of traversal threads per rank </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="affe9bb2fa6916b34ce141385f3a3857e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_pepc_get_theta </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float *&#160;</td>
-          <td class="paramname"><em>theta</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>function to get the optional pepc theta parameter </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handle</td><td>FCS-object that contains the parameter </td></tr>
-    <tr><td class="paramname">theta</td><td>multipole acceptance parameter for Barnes-Hut MAC </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>FCSResult-object containing the return state </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ad28997bd9ac6bee16dab5e64aada05c0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_pepc_set_debug_level </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_int&#160;</td>
-          <td class="paramname"><em>level</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>function to set the pepc debug level </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handle</td><td>FCS-object that is modified </td></tr>
-    <tr><td class="paramname">level</td><td>user-set debug level of pepc solver </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>FCSResult-object containing the return state </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a7fdf1543f9eec47bf7ff6f50d59c7cd1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_pepc_set_dipole_correction </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_int&#160;</td>
-          <td class="paramname"><em>dipole_correction</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>function for setting pepcs switch for adding a dipole correction for periodic systems </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handle</td><td>FCS-object that contains the parameter </td></tr>
-    <tr><td class="paramname">dipole_correction</td><td>if &gt;0 the dipole correction is enabled </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="ae8b10400a071cede778f65309e17dd48"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_pepc_set_epsilon </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float&#160;</td>
-          <td class="paramname"><em>epsilon</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>function to set the optional pepc epsilon parameter </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handle</td><td>FCS-object that is modified </td></tr>
-    <tr><td class="paramname">epsilon</td><td>epsilon (Plummer potential parameter) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>FCSResult-object containing the return state </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ad690d05fd60f584f6606084c48f66fdd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_pepc_set_load_balancing </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_int&#160;</td>
-          <td class="paramname"><em>load_balancing</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>function for setting pepcs switch for load balancing </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handle</td><td>FCS-object that contains the parameter </td></tr>
-    <tr><td class="paramname">load_balancing</td><td>if &gt;0 load balancing is enabled. may only be activated if the frontend does not reorder any particles </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a15f3f8767d0dc74b70eaaaaf6bb80ca4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_pepc_set_npm </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float&#160;</td>
-          <td class="paramname"><em>npm</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>function to set the optional pepc npm (aka np_mult) </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handle</td><td>FCS-object that is modified </td></tr>
-    <tr><td class="paramname">npm</td><td>npm (aka np_mult) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>FCSResult-object containing the return state </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a67a0787b8d4dbd9feea95e437b843c78"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_pepc_set_num_walk_threads </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_int&#160;</td>
-          <td class="paramname"><em>num_walk_threads</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>function to set pepcs number of walk threads per MPI rank </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handle</td><td>FCS-object that contains the parameter </td></tr>
-    <tr><td class="paramname">num_walk_threads</td><td>number of traversal threads per rank </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a1ea685c2262c18e1e426dc728292ee18"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_pepc_set_theta </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float&#160;</td>
-          <td class="paramname"><em>theta</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>function to set the optional pepc theta parameter </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handle</td><td>FCS-object that is modified </td></tr>
-    <tr><td class="paramname">theta</td><td>multipole acceptance parameter for Barnes-Hut MAC </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>FCSResult-object containing the return state </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a2c4565dcb3e3f9eac40e33d48a5eec48"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/de7/a00014.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcs_pepc_setup </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dd4/a00013.html#aad56627cfc929014f463294fdba653f5">FCS</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float&#160;</td>
-          <td class="paramname"><em>epsilon</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float&#160;</td>
-          <td class="paramname"><em>theta</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a21482459b5e28753e4fd91a3c350ef99"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void fcs_pepc_setup_f </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float&#160;</td>
-          <td class="paramname"><em>epsilon</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_float&#160;</td>
-          <td class="paramname"><em>theta</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_int&#160;</td>
-          <td class="paramname"><em>level</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">fcs_int *&#160;</td>
-          <td class="paramname"><em>return_value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this interface was generated from the following file:<ul>
+<li>/home5/m.winkel/workspace/scafacos/scafacos.git/src/fortran/<a class="el" href="../../da/d82/a00091_source.html">fcs4fortran.f90</a></li>
+</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_091eaf780c5482072cf436895a543f9b.html">scafacos.git</a></li><li class="navelem"><a class="el" href="../../dir_d9a94db2ee947027ed05985d61b8c589.html">src</a></li><li class="navelem"><a class="el" href="../../d7/dec/a00010.html">fcs_pepc_p.h</a></li>
-    <li class="footer">Generated on Tue Sep 10 2013 16:08:40 for ScaFaCoSfcs by
+    <li class="navelem"><a class="el" href="../../d5/db6/a00042.html">fcs_module</a></li><li class="navelem"><a class="el" href="../../d7/dec/a00010.html">fcs_fmm_get_balanceload</a></li>
+    <li class="footer">Generated on Tue Sep 10 2013 23:54:32 for ScaFaCoSfcs by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>
