@@ -70,7 +70,7 @@ $(document).ready(function(){initNavTree('_f_c_s_result__p_8h_source.html','');}
 </div><!--header-->
 <div class="contents">
 <a href="_f_c_s_result__p_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">  Copyright (C) 2011-2012 Rene Halver</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">  Copyright (C) 2011, 2012, 2013 Lidia Westphal, Rene Halver, Michael Hofmann</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">  This file is part of ScaFaCoS.</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"></span></div>
@@ -89,46 +89,57 @@ $(document).ready(function(){initNavTree('_f_c_s_result__p_8h_source.html','');}
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#ifndef FCS_RESULT_P_INCLUDED</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define FCS_RESULT_P_INCLUDED</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;FCSDefinitions.h&quot;</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">   39</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>FCSResult_t *<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="a handle for the FCSResult-object which should be used instead of the data structure itself ...">FCSResult</a>;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="code" href="_f_c_s_result__p_8h.html#acbd2db322547eaa1fbccb1a015a76f5a">   41</a></span>&#160;<span class="preprocessor">#define FCS_RESULT_SUCCESS  NULL</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#ifndef FCS_RESULT_P_INCLUDED</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define FCS_RESULT_P_INCLUDED</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &quot;FCSDefinitions.h&quot;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor"></span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">   44</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>FCSResult_t *<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="FCSResult-object that is used for handling the return state of the ScaFaCoS library functions...">FCSResult</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="code" href="_f_c_s_result__p_8h.html#acbd2db322547eaa1fbccb1a015a76f5a">   46</a></span>&#160;<span class="preprocessor">#define FCS_RESULT_SUCCESS  NULL</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="a handle for the FCSResult-object which should be used instead of the data structure itself ...">FCSResult</a> <a class="code" href="_f_c_s_result__p_8h.html#adf289342a1e35f00da3adc5b605dd905" title="initializes an FCSResult object ">fcsResult_create</a>(fcs_int code, <span class="keyword">const</span> <span class="keywordtype">char</span> *origin, <span class="keyword">const</span> <span class="keywordtype">char</span> *message, ...);</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="code" href="_f_c_s_result__p_8h.html#add1622f360ddb497e32400626f4af9ec">   48</a></span>&#160;<span class="preprocessor">#define FCS_RESULT_MAX_FUNCTION_LENGTH   64</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="code" href="_f_c_s_result__p_8h.html#a5b17eb9f2f25ad12a3dc147a755034dc">   49</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define FCS_RESULT_MAX_MESSAGE_LENGTH   512</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_f_c_s_result__p_8h.html#a6f9090472fd2bc3f33941d0e059ce5d9" title="function to destroy an FCSResult-object ">fcs_result_destroy</a>(FCSResult result);</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;fcs_int <a class="code" href="_f_c_s_result__p_8h.html#a92f0d6718090ec29f7fe5211b45d9e7b" title="destroys an FCSResult object ">fcsResult_destroy</a>(<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="a handle for the FCSResult-object which should be used instead of the data structure itself ...">FCSResult</a> err);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;fcs_int <a class="code" href="_f_c_s_result__p_8h.html#a03632de246275ebe8f215c79c9017629" title="function to return the return code associated with an return state ">fcs_result_get_return_code</a>(FCSResult result);</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;fcs_int <a class="code" href="_f_c_s_result__p_8h.html#a9ece5bab1b35ea0167a2f48328d09c92" title="returns error code ">fcsResult_getReturnCode</a>(<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="a handle for the FCSResult-object which should be used instead of the data structure itself ...">FCSResult</a> err);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="_f_c_s_result__p_8h.html#ac5322588b3a6b5605c9c91ecfe566dbd" title="function to return the function name associated with an return state ">fcs_result_get_function</a>(FCSResult result);</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="_f_c_s_result__p_8h.html#af64c6f3752b3b59948cb0f9689cbc218" title="returns an error message ">fcsResult_getErrorMessage</a>(<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="a handle for the FCSResult-object which should be used instead of the data structure itself ...">FCSResult</a> err);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="_f_c_s_result__p_8h.html#a337236ed8644ddb31543b829b5870e97" title="function to return the description message associated with an return state ">fcs_result_get_message</a>(FCSResult result);</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="_f_c_s_result__p_8h.html#a0c9111fcdbea518201d9fcf56c8f5bcf" title="returns a source name of the error (function name) ">fcsResult_getErrorSource</a>(<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="a handle for the FCSResult-object which should be used instead of the data structure itself ...">FCSResult</a> err);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_f_c_s_result__p_8h.html#ae34f00b4179e7cd6a8aa70e554d9d690" title="prints return code, message and source to stdout ">fcsResult_printResult</a>(<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="a handle for the FCSResult-object which should be used instead of the data structure itself ...">FCSResult</a> err);</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor"></span>}</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_f_c_s_result__p_8h.html#aa9ab90dd52f693ac002c9e6c6976b20f" title="function to print the return state to stdout ">fcs_result_print_result</a>(FCSResult result);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#ifdef FCS_ENABLE_DEPRECATED</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="code" href="_f_c_s_result__p_8h.html#a0fb8995519aacdeed2d69db27bf78843">   86</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define fcsResult_destroy          fcs_result_destroy</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="code" href="_f_c_s_result__p_8h.html#a8a75f32d180891e2c688688dd2fcb7bd">   87</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define fcsResult_getReturnCode    fcs_result_get_return_code</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="code" href="_f_c_s_result__p_8h.html#a8c389eb23c4f80c3577f28c6ae2de5ba">   88</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define fcsResult_getErrorMessage  fcs_result_get_message</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="code" href="_f_c_s_result__p_8h.html#ab96e7b9670d18a1b9ac875545445973f">   89</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define fcsResult_getErrorSource   fcs_result_get_function</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="code" href="_f_c_s_result__p_8h.html#a8c7657a2a4a0cad2bbf8c97c5bf5ccf0">   90</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define fcsResult_printResult      fcs_result_print_result</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_646f78480d9ff042f175a2c308a65854.html">scafacos.git</a></li><li class="navelem"><a class="el" href="dir_cc9004cfe7cd7c22bd61336361d3ac2c.html">src</a></li><li class="navelem"><a class="el" href="_f_c_s_result__p_8h.html">FCSResult_p.h</a></li>
-    <li class="footer">Generated on Thu Sep 19 2013 22:22:04 for ScaFaCoSfcs by
+    <li class="footer">Generated on Tue Jan 14 2014 12:15:21 for ScaFaCoSfcs by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

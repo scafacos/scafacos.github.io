@@ -73,14 +73,16 @@ $(document).ready(function(){initNavTree('_f_c_s_result__p_8h.html','');});
 <div class="title">FCSResult_p.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>public interface definitions for the FCSResult-object that is used for handling the return state of the ScaFaCoS library functions  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;FCSDefinitions.h&quot;</code><br/>
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for FCSResult_p.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_f_c_s_result__p_8h__incl.svg" width="131" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_f_c_s_result__p_8h__incl.svg" width="131" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <p><a href="_f_c_s_result__p_8h_source.html">Go to the source code of this file.</a></p>
@@ -89,35 +91,79 @@ $(document).ready(function(){initNavTree('_f_c_s_result__p_8h.html','');});
 Macros</h2></td></tr>
 <tr class="memitem:acbd2db322547eaa1fbccb1a015a76f5a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#acbd2db322547eaa1fbccb1a015a76f5a">FCS_RESULT_SUCCESS</a>&#160;&#160;&#160;NULL</td></tr>
 <tr class="separator:acbd2db322547eaa1fbccb1a015a76f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add1622f360ddb497e32400626f4af9ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#add1622f360ddb497e32400626f4af9ec">FCS_RESULT_MAX_FUNCTION_LENGTH</a>&#160;&#160;&#160;64</td></tr>
+<tr class="separator:add1622f360ddb497e32400626f4af9ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b17eb9f2f25ad12a3dc147a755034dc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#a5b17eb9f2f25ad12a3dc147a755034dc">FCS_RESULT_MAX_MESSAGE_LENGTH</a>&#160;&#160;&#160;512</td></tr>
+<tr class="separator:a5b17eb9f2f25ad12a3dc147a755034dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fb8995519aacdeed2d69db27bf78843"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#a0fb8995519aacdeed2d69db27bf78843">fcsResult_destroy</a>&#160;&#160;&#160;<a class="el" href="_f_c_s_result__p_8h.html#a6f9090472fd2bc3f33941d0e059ce5d9">fcs_result_destroy</a></td></tr>
+<tr class="separator:a0fb8995519aacdeed2d69db27bf78843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a75f32d180891e2c688688dd2fcb7bd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#a8a75f32d180891e2c688688dd2fcb7bd">fcsResult_getReturnCode</a>&#160;&#160;&#160;<a class="el" href="_f_c_s_result__p_8h.html#a03632de246275ebe8f215c79c9017629">fcs_result_get_return_code</a></td></tr>
+<tr class="separator:a8a75f32d180891e2c688688dd2fcb7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c389eb23c4f80c3577f28c6ae2de5ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#a8c389eb23c4f80c3577f28c6ae2de5ba">fcsResult_getErrorMessage</a>&#160;&#160;&#160;<a class="el" href="_f_c_s_result__p_8h.html#a337236ed8644ddb31543b829b5870e97">fcs_result_get_message</a></td></tr>
+<tr class="separator:a8c389eb23c4f80c3577f28c6ae2de5ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab96e7b9670d18a1b9ac875545445973f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#ab96e7b9670d18a1b9ac875545445973f">fcsResult_getErrorSource</a>&#160;&#160;&#160;<a class="el" href="_f_c_s_result__p_8h.html#ac5322588b3a6b5605c9c91ecfe566dbd">fcs_result_get_function</a></td></tr>
+<tr class="separator:ab96e7b9670d18a1b9ac875545445973f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c7657a2a4a0cad2bbf8c97c5bf5ccf0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#a8c7657a2a4a0cad2bbf8c97c5bf5ccf0">fcsResult_printResult</a>&#160;&#160;&#160;<a class="el" href="_f_c_s_result__p_8h.html#aa9ab90dd52f693ac002c9e6c6976b20f">fcs_result_print_result</a></td></tr>
+<tr class="separator:a8c7657a2a4a0cad2bbf8c97c5bf5ccf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a85ef1321d26224cb49e4e9e18d5a74e1"><td class="memItemLeft" align="right" valign="top">typedef struct FCSResult_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a></td></tr>
-<tr class="memdesc:a85ef1321d26224cb49e4e9e18d5a74e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">a handle for the FCSResult-object which should be used instead of the data structure itself  <a href="#a85ef1321d26224cb49e4e9e18d5a74e1">More...</a><br/></td></tr>
+<tr class="memdesc:a85ef1321d26224cb49e4e9e18d5a74e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">FCSResult-object that is used for handling the return state of the ScaFaCoS library functions.  <a href="#a85ef1321d26224cb49e4e9e18d5a74e1">More...</a><br/></td></tr>
 <tr class="separator:a85ef1321d26224cb49e4e9e18d5a74e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:adf289342a1e35f00da3adc5b605dd905"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#adf289342a1e35f00da3adc5b605dd905">fcsResult_create</a> (fcs_int code, const char *origin, const char *message,...)</td></tr>
-<tr class="memdesc:adf289342a1e35f00da3adc5b605dd905"><td class="mdescLeft">&#160;</td><td class="mdescRight">initializes an FCSResult object  <a href="#adf289342a1e35f00da3adc5b605dd905">More...</a><br/></td></tr>
-<tr class="separator:adf289342a1e35f00da3adc5b605dd905"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92f0d6718090ec29f7fe5211b45d9e7b"><td class="memItemLeft" align="right" valign="top">fcs_int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#a92f0d6718090ec29f7fe5211b45d9e7b">fcsResult_destroy</a> (<a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> err)</td></tr>
-<tr class="memdesc:a92f0d6718090ec29f7fe5211b45d9e7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroys an FCSResult object  <a href="#a92f0d6718090ec29f7fe5211b45d9e7b">More...</a><br/></td></tr>
-<tr class="separator:a92f0d6718090ec29f7fe5211b45d9e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ece5bab1b35ea0167a2f48328d09c92"><td class="memItemLeft" align="right" valign="top">fcs_int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#a9ece5bab1b35ea0167a2f48328d09c92">fcsResult_getReturnCode</a> (<a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> err)</td></tr>
-<tr class="memdesc:a9ece5bab1b35ea0167a2f48328d09c92"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns error code  <a href="#a9ece5bab1b35ea0167a2f48328d09c92">More...</a><br/></td></tr>
-<tr class="separator:a9ece5bab1b35ea0167a2f48328d09c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af64c6f3752b3b59948cb0f9689cbc218"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#af64c6f3752b3b59948cb0f9689cbc218">fcsResult_getErrorMessage</a> (<a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> err)</td></tr>
-<tr class="memdesc:af64c6f3752b3b59948cb0f9689cbc218"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns an error message  <a href="#af64c6f3752b3b59948cb0f9689cbc218">More...</a><br/></td></tr>
-<tr class="separator:af64c6f3752b3b59948cb0f9689cbc218"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c9111fcdbea518201d9fcf56c8f5bcf"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#a0c9111fcdbea518201d9fcf56c8f5bcf">fcsResult_getErrorSource</a> (<a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> err)</td></tr>
-<tr class="memdesc:a0c9111fcdbea518201d9fcf56c8f5bcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a source name of the error (function name)  <a href="#a0c9111fcdbea518201d9fcf56c8f5bcf">More...</a><br/></td></tr>
-<tr class="separator:a0c9111fcdbea518201d9fcf56c8f5bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae34f00b4179e7cd6a8aa70e554d9d690"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#ae34f00b4179e7cd6a8aa70e554d9d690">fcsResult_printResult</a> (<a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> err)</td></tr>
-<tr class="memdesc:ae34f00b4179e7cd6a8aa70e554d9d690"><td class="mdescLeft">&#160;</td><td class="mdescRight">prints return code, message and source to stdout  <a href="#ae34f00b4179e7cd6a8aa70e554d9d690">More...</a><br/></td></tr>
-<tr class="separator:ae34f00b4179e7cd6a8aa70e554d9d690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f9090472fd2bc3f33941d0e059ce5d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#a6f9090472fd2bc3f33941d0e059ce5d9">fcs_result_destroy</a> (<a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> result)</td></tr>
+<tr class="memdesc:a6f9090472fd2bc3f33941d0e059ce5d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to destroy an FCSResult-object  <a href="#a6f9090472fd2bc3f33941d0e059ce5d9">More...</a><br/></td></tr>
+<tr class="separator:a6f9090472fd2bc3f33941d0e059ce5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03632de246275ebe8f215c79c9017629"><td class="memItemLeft" align="right" valign="top">fcs_int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#a03632de246275ebe8f215c79c9017629">fcs_result_get_return_code</a> (<a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> result)</td></tr>
+<tr class="memdesc:a03632de246275ebe8f215c79c9017629"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to return the return code associated with an return state  <a href="#a03632de246275ebe8f215c79c9017629">More...</a><br/></td></tr>
+<tr class="separator:a03632de246275ebe8f215c79c9017629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5322588b3a6b5605c9c91ecfe566dbd"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#ac5322588b3a6b5605c9c91ecfe566dbd">fcs_result_get_function</a> (<a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> result)</td></tr>
+<tr class="memdesc:ac5322588b3a6b5605c9c91ecfe566dbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to return the function name associated with an return state  <a href="#ac5322588b3a6b5605c9c91ecfe566dbd">More...</a><br/></td></tr>
+<tr class="separator:ac5322588b3a6b5605c9c91ecfe566dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a337236ed8644ddb31543b829b5870e97"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#a337236ed8644ddb31543b829b5870e97">fcs_result_get_message</a> (<a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> result)</td></tr>
+<tr class="memdesc:a337236ed8644ddb31543b829b5870e97"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to return the description message associated with an return state  <a href="#a337236ed8644ddb31543b829b5870e97">More...</a><br/></td></tr>
+<tr class="separator:a337236ed8644ddb31543b829b5870e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9ab90dd52f693ac002c9e6c6976b20f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_c_s_result__p_8h.html#aa9ab90dd52f693ac002c9e6c6976b20f">fcs_result_print_result</a> (<a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> result)</td></tr>
+<tr class="memdesc:aa9ab90dd52f693ac002c9e6c6976b20f"><td class="mdescLeft">&#160;</td><td class="mdescRight">function to print the return state to stdout  <a href="#aa9ab90dd52f693ac002c9e6c6976b20f">More...</a><br/></td></tr>
+<tr class="separator:aa9ab90dd52f693ac002c9e6c6976b20f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>public interface definitions for the FCSResult-object that is used for handling the return state of the ScaFaCoS library functions </p>
+<dl class="section author"><dt>Author</dt><dd>Lidia Westphal, Rene Halver, Michael Hofmann </dd></dl>
+
+<p>Definition in file <a class="el" href="_f_c_s_result__p_8h_source.html">FCSResult_p.h</a>.</p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="add1622f360ddb497e32400626f4af9ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FCS_RESULT_MAX_FUNCTION_LENGTH&#160;&#160;&#160;64</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_f_c_s_result__p_8h_source.html#l00048">48</a> of file <a class="el" href="_f_c_s_result__p_8h_source.html">FCSResult_p.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5b17eb9f2f25ad12a3dc147a755034dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FCS_RESULT_MAX_MESSAGE_LENGTH&#160;&#160;&#160;512</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_f_c_s_result__p_8h_source.html#l00049">49</a> of file <a class="el" href="_f_c_s_result__p_8h_source.html">FCSResult_p.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="acbd2db322547eaa1fbccb1a015a76f5a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -128,7 +174,77 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_f_c_s_result__p_8h_source.html#l00041">41</a> of file <a class="el" href="_f_c_s_result__p_8h_source.html">FCSResult_p.h</a>.</p>
+<p>Definition at line <a class="el" href="_f_c_s_result__p_8h_source.html#l00046">46</a> of file <a class="el" href="_f_c_s_result__p_8h_source.html">FCSResult_p.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0fb8995519aacdeed2d69db27bf78843"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define fcsResult_destroy&#160;&#160;&#160;<a class="el" href="_f_c_s_result__p_8h.html#a6f9090472fd2bc3f33941d0e059ce5d9">fcs_result_destroy</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_f_c_s_result__p_8h_source.html#l00086">86</a> of file <a class="el" href="_f_c_s_result__p_8h_source.html">FCSResult_p.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8c389eb23c4f80c3577f28c6ae2de5ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define fcsResult_getErrorMessage&#160;&#160;&#160;<a class="el" href="_f_c_s_result__p_8h.html#a337236ed8644ddb31543b829b5870e97">fcs_result_get_message</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_f_c_s_result__p_8h_source.html#l00088">88</a> of file <a class="el" href="_f_c_s_result__p_8h_source.html">FCSResult_p.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab96e7b9670d18a1b9ac875545445973f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define fcsResult_getErrorSource&#160;&#160;&#160;<a class="el" href="_f_c_s_result__p_8h.html#ac5322588b3a6b5605c9c91ecfe566dbd">fcs_result_get_function</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_f_c_s_result__p_8h_source.html#l00089">89</a> of file <a class="el" href="_f_c_s_result__p_8h_source.html">FCSResult_p.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8a75f32d180891e2c688688dd2fcb7bd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define fcsResult_getReturnCode&#160;&#160;&#160;<a class="el" href="_f_c_s_result__p_8h.html#a03632de246275ebe8f215c79c9017629">fcs_result_get_return_code</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_f_c_s_result__p_8h_source.html#l00087">87</a> of file <a class="el" href="_f_c_s_result__p_8h_source.html">FCSResult_p.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8c7657a2a4a0cad2bbf8c97c5bf5ccf0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define fcsResult_printResult&#160;&#160;&#160;<a class="el" href="_f_c_s_result__p_8h.html#aa9ab90dd52f693ac002c9e6c6976b20f">fcs_result_print_result</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_f_c_s_result__p_8h_source.html#l00090">90</a> of file <a class="el" href="_f_c_s_result__p_8h_source.html">FCSResult_p.h</a>.</p>
 
 </div>
 </div>
@@ -143,180 +259,160 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>a handle for the FCSResult-object which should be used instead of the data structure itself </p>
+<p>FCSResult-object that is used for handling the return state of the ScaFaCoS library functions. </p>
 
-<p>Definition at line <a class="el" href="_f_c_s_result__p_8h_source.html#l00039">39</a> of file <a class="el" href="_f_c_s_result__p_8h_source.html">FCSResult_p.h</a>.</p>
+<p>Definition at line <a class="el" href="_f_c_s_result__p_8h_source.html#l00044">44</a> of file <a class="el" href="_f_c_s_result__p_8h_source.html">FCSResult_p.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="adf289342a1e35f00da3adc5b605dd905"></a>
+<a class="anchor" id="a6f9090472fd2bc3f33941d0e059ce5d9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a> fcsResult_create </td>
+          <td class="memname">void fcs_result_destroy </td>
           <td>(</td>
-          <td class="paramtype">fcs_int&#160;</td>
-          <td class="paramname"><em>code</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td>
+          <td class="paramname"><em>result</em>)</td><td></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>origin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>message</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>initializes an FCSResult object </p>
+<p>function to destroy an FCSResult-object </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">code</td><td>is the return code </td></tr>
-    <tr><td class="paramname">where</td><td>is the name of the function the error object was made in </td></tr>
-    <tr><td class="paramname">message</td><td>is the error message </td></tr>
+    <tr><td class="paramname">result</td><td>FCSResult-object containing the return state </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>pointer to the FCSResult-object </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a92f0d6718090ec29f7fe5211b45d9e7b"></a>
+<a class="anchor" id="ac5322588b3a6b5605c9c91ecfe566dbd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">fcs_int fcsResult_destroy </td>
+          <td class="memname">const char* fcs_result_get_function </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td>
-          <td class="paramname"><em>err</em>)</td><td></td>
+          <td class="paramname"><em>result</em>)</td><td></td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>destroys an FCSResult object </p>
+<p>function to return the function name associated with an return state </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">err</td><td>is the pointer to the FCSResult object to destroy </td></tr>
+    <tr><td class="paramname">result</td><td>FCSResult-object containing the return state </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>0 if successful, otherwise -1 </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>function name associated with the return state </dd></dl>
+
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="_f_c_s_result__p_8h_ac5322588b3a6b5605c9c91ecfe566dbd_icgraph.svg" width="371" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
-<a class="anchor" id="af64c6f3752b3b59948cb0f9689cbc218"></a>
+<a class="anchor" id="a337236ed8644ddb31543b829b5870e97"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const char* fcsResult_getErrorMessage </td>
+          <td class="memname">const char* fcs_result_get_message </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td>
-          <td class="paramname"><em>err</em>)</td><td></td>
+          <td class="paramname"><em>result</em>)</td><td></td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns an error message </p>
+<p>function to return the description message associated with an return state </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">err</td><td>is the pointer to the FCSResult object </td></tr>
+    <tr><td class="paramname">result</td><td>FCSResult-object containing the return state </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a string containing the corresonding error message </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>description message associated with the return state </dd></dl>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="_f_c_s_result__p_8h_a337236ed8644ddb31543b829b5870e97_icgraph.svg" width="382" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
-<a class="anchor" id="a0c9111fcdbea518201d9fcf56c8f5bcf"></a>
+<a class="anchor" id="a03632de246275ebe8f215c79c9017629"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const char* fcsResult_getErrorSource </td>
+          <td class="memname">fcs_int fcs_result_get_return_code </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td>
-          <td class="paramname"><em>err</em>)</td><td></td>
+          <td class="paramname"><em>result</em>)</td><td></td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns a source name of the error (function name) </p>
+<p>function to return the return code associated with an return state </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">err</td><td>is the pointer to the FCSResult object </td></tr>
+    <tr><td class="paramname">result</td><td>FCSResult-object containing the return state </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a string containing the name of the function where the error occured </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>return code associated with the return state </dd></dl>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="_f_c_s_result__p_8h_a03632de246275ebe8f215c79c9017629_icgraph.svg" width="398" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
-<a class="anchor" id="a9ece5bab1b35ea0167a2f48328d09c92"></a>
+<a class="anchor" id="aa9ab90dd52f693ac002c9e6c6976b20f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">fcs_int fcsResult_getReturnCode </td>
+          <td class="memname">void fcs_result_print_result </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td>
-          <td class="paramname"><em>err</em>)</td><td></td>
+          <td class="paramname"><em>result</em>)</td><td></td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>returns error code </p>
+<p>function to print the return state to stdout </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">err</td><td>is the pointer to the FCSResult object </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>fcs_int as an return code </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="ae34f00b4179e7cd6a8aa70e554d9d690"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void fcsResult_printResult </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1">FCSResult</a>&#160;</td>
-          <td class="paramname"><em>err</em>)</td><td></td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>prints return code, message and source to stdout </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">err</td><td>is the pofcs_inter to the FCSResult object </td></tr>
+    <tr><td class="paramname">result</td><td>FCSResult-object containing the return state </td></tr>
   </table>
   </dd>
 </dl>
@@ -329,7 +425,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_646f78480d9ff042f175a2c308a65854.html">scafacos.git</a></li><li class="navelem"><a class="el" href="dir_cc9004cfe7cd7c22bd61336361d3ac2c.html">src</a></li><li class="navelem"><a class="el" href="_f_c_s_result__p_8h.html">FCSResult_p.h</a></li>
-    <li class="footer">Generated on Thu Sep 19 2013 22:22:05 for ScaFaCoSfcs by
+    <li class="footer">Generated on Tue Jan 14 2014 12:15:22 for ScaFaCoSfcs by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

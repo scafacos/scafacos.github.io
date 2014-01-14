@@ -35,7 +35,7 @@
 </g>
 <!-- Node4 -->
 <g id="node7" class="node"><title>Node4</title>
-<a xlink:href="_f_c_s_result__p_8h.html" target="_top" xlink:title="FCSResult_p.h">
+<a xlink:href="_f_c_s_result__p_8h.html" target="_top" xlink:title="public interface definitions for the FCSResult&#45;object that is used for handling the return state of t...">
 <polygon fill="none" stroke="black" points="125.5,-56.5 125.5,-75.5 208.5,-75.5 208.5,-56.5 125.5,-56.5"/>
 <text text-anchor="middle" x="167" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">FCSResult_p.h</text>
 </a>
@@ -47,7 +47,7 @@
 </g>
 <!-- Node5 -->
 <g id="node10" class="node"><title>Node5</title>
-<a xlink:href="_f_c_s_interface__p_8h.html" target="_top" xlink:title="supplying the C&#45;interface routine for the ScaFaCoS library ">
+<a xlink:href="_f_c_s_interface__p_8h.html" target="_top" xlink:title="public interface definitions for the main solver&#45;independent functionality of the ScaFaCoS library ...">
 <polygon fill="none" stroke="black" points="183.5,-112.5 183.5,-131.5 276.5,-131.5 276.5,-112.5 183.5,-112.5"/>
 <text text-anchor="middle" x="230" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">FCSInterface_p.h</text>
 </a>

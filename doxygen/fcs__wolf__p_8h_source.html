@@ -70,7 +70,7 @@ $(document).ready(function(){initNavTree('fcs__wolf__p_8h_source.html','');});
 </div><!--header-->
 <div class="contents">
 <a href="fcs__wolf__p_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">  Copyright (C) 2011,2012,2013 Michael Hofmann</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">  Copyright (C) 2011, 2012, 2013 Michael Hofmann</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">  This file is part of ScaFaCoS.</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"></span></div>
@@ -95,39 +95,39 @@ $(document).ready(function(){initNavTree('fcs__wolf__p_8h_source.html','');});
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;FCSDefinitions.h&quot;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_f_c_s_result__p_8h.html">FCSResult_p.h</a>&quot;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_f_c_s_interface__p_8h.html" title="supplying the C-interface routine for the ScaFaCoS library ">FCSInterface_p.h</a>&quot;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_f_c_s_result__p_8h.html" title="public interface definitions for the FCSResult-object that is used for handling the return state of t...">FCSResult_p.h</a>&quot;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_f_c_s_interface__p_8h.html" title="public interface definitions for the main solver-independent functionality of the ScaFaCoS library ...">FCSInterface_p.h</a>&quot;</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="code" href="fcs__wolf__p_8h.html#adc0bc3ad765285b361b65a3a98297364">   37</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>fcs_wolf_parameters_t *<a class="code" href="fcs__wolf__p_8h.html#adc0bc3ad765285b361b65a3a98297364">fcs_wolf_parameters</a>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="a handle for the FCSResult-object which should be used instead of the data structure itself ...">FCSResult</a> <a class="code" href="fcs__wolf__p_8h.html#acbd6b7de00ddd92f5a00ccf27c546f17" title="function to set the cutoff radius ">fcs_wolf_set_cutoff</a>(<a class="code" href="_f_c_s_interface__p_8h.html#aad56627cfc929014f463294fdba653f5" title="a handle for the FCS-object which should be used instead of the data structure itself ...">FCS</a> handle, fcs_float cutoff);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="a handle for the FCSResult-object which should be used instead of the data structure itself ...">FCSResult</a> <a class="code" href="fcs__wolf__p_8h.html#ab48631a7b6e5d6ea5ffb4e5756dae63e" title="function to get the current cutoff radius ">fcs_wolf_get_cutoff</a>(<a class="code" href="_f_c_s_interface__p_8h.html#aad56627cfc929014f463294fdba653f5" title="a handle for the FCS-object which should be used instead of the data structure itself ...">FCS</a> handle, fcs_float *cutoff);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="a handle for the FCSResult-object which should be used instead of the data structure itself ...">FCSResult</a> <a class="code" href="fcs__wolf__p_8h.html#a2805b8ad2fa629a0ba89d2d88e120fec" title="function to set the ewald splitting parameter alpha ">fcs_wolf_set_alpha</a>(<a class="code" href="_f_c_s_interface__p_8h.html#aad56627cfc929014f463294fdba653f5" title="a handle for the FCS-object which should be used instead of the data structure itself ...">FCS</a> handle, fcs_float alpha);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="a handle for the FCSResult-object which should be used instead of the data structure itself ...">FCSResult</a> <a class="code" href="fcs__wolf__p_8h.html#a6542982b8ce2ac86484c328950a94443" title="function to get the current ewald splitting parameter alpha ">fcs_wolf_get_alpha</a>(<a class="code" href="_f_c_s_interface__p_8h.html#aad56627cfc929014f463294fdba653f5" title="a handle for the FCS-object which should be used instead of the data structure itself ...">FCS</a> handle, fcs_float *alpha);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="a handle for the FCSResult-object which should be used instead of the data structure itself ...">FCSResult</a> <a class="code" href="fcs__wolf__p_8h.html#ab6a0acd494a1c02aaf24268a0596cfb3" title="combined setter for all wolf solver parameters ">fcs_wolf_setup</a>(<a class="code" href="_f_c_s_interface__p_8h.html#aad56627cfc929014f463294fdba653f5" title="a handle for the FCS-object which should be used instead of the data structure itself ...">FCS</a> handle, fcs_float cutoff, fcs_float alpha);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="keywordtype">void</span> <a class="code" href="fcs__wolf__p_8h.html#a6643413a39c18ff57525cbd7de25e14d" title="combined setter for all wolf solver parameters (FORTRAN WRAPPER) ">fcs_wolf_setup_f</a>(<span class="keywordtype">void</span> *handle, fcs_float cutoff, fcs_float alpha, fcs_int *return_value);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="code" href="fcs__wolf__p_8h.html#adc0bc3ad765285b361b65a3a98297364">   42</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>fcs_wolf_parameters_t *<a class="code" href="fcs__wolf__p_8h.html#adc0bc3ad765285b361b65a3a98297364" title="data structure with parameters of the wolf solver ">fcs_wolf_parameters</a>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="FCSResult-object that is used for handling the return state of the ScaFaCoS library functions...">FCSResult</a> <a class="code" href="fcs__wolf__p_8h.html#acbd6b7de00ddd92f5a00ccf27c546f17" title="function to set the cutoff radius ">fcs_wolf_set_cutoff</a>(<a class="code" href="_f_c_s_interface__p_8h.html#abe37553d863fd248a66d026d03320f91" title="FCS-object representing an FCS solver. ">FCS</a> handle, fcs_float cutoff);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="FCSResult-object that is used for handling the return state of the ScaFaCoS library functions...">FCSResult</a> <a class="code" href="fcs__wolf__p_8h.html#ab48631a7b6e5d6ea5ffb4e5756dae63e" title="function to get the current cutoff radius ">fcs_wolf_get_cutoff</a>(<a class="code" href="_f_c_s_interface__p_8h.html#abe37553d863fd248a66d026d03320f91" title="FCS-object representing an FCS solver. ">FCS</a> handle, fcs_float *cutoff);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="FCSResult-object that is used for handling the return state of the ScaFaCoS library functions...">FCSResult</a> <a class="code" href="fcs__wolf__p_8h.html#a2805b8ad2fa629a0ba89d2d88e120fec" title="function to set the ewald splitting parameter alpha ">fcs_wolf_set_alpha</a>(<a class="code" href="_f_c_s_interface__p_8h.html#abe37553d863fd248a66d026d03320f91" title="FCS-object representing an FCS solver. ">FCS</a> handle, fcs_float alpha);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="FCSResult-object that is used for handling the return state of the ScaFaCoS library functions...">FCSResult</a> <a class="code" href="fcs__wolf__p_8h.html#a6542982b8ce2ac86484c328950a94443" title="function to get the current ewald splitting parameter alpha ">fcs_wolf_get_alpha</a>(<a class="code" href="_f_c_s_interface__p_8h.html#abe37553d863fd248a66d026d03320f91" title="FCS-object representing an FCS solver. ">FCS</a> handle, fcs_float *alpha);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<a class="code" href="_f_c_s_result__p_8h.html#a85ef1321d26224cb49e4e9e18d5a74e1" title="FCSResult-object that is used for handling the return state of the ScaFaCoS library functions...">FCSResult</a> <a class="code" href="fcs__wolf__p_8h.html#ab6a0acd494a1c02aaf24268a0596cfb3" title="function to set all solver parameters ">fcs_wolf_setup</a>(<a class="code" href="_f_c_s_interface__p_8h.html#abe37553d863fd248a66d026d03320f91" title="FCS-object representing an FCS solver. ">FCS</a> handle, fcs_float cutoff, fcs_float alpha);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="keywordtype">void</span> <a class="code" href="fcs__wolf__p_8h.html#a6643413a39c18ff57525cbd7de25e14d" title="function to set all solver parameters (Fortran wrapper) ">fcs_wolf_setup_f</a>(<span class="keywordtype">void</span> *handle, fcs_float cutoff, fcs_float alpha, fcs_int *return_value);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_646f78480d9ff042f175a2c308a65854.html">scafacos.git</a></li><li class="navelem"><a class="el" href="dir_cc9004cfe7cd7c22bd61336361d3ac2c.html">src</a></li><li class="navelem"><a class="el" href="fcs__wolf__p_8h.html">fcs_wolf_p.h</a></li>
-    <li class="footer">Generated on Thu Sep 19 2013 22:22:04 for ScaFaCoSfcs by
+    <li class="footer">Generated on Tue Jan 14 2014 12:15:20 for ScaFaCoSfcs by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

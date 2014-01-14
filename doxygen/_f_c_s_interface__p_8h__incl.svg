@@ -35,7 +35,7 @@
 </g>
 <!-- Node4 -->
 <g id="node7" class="node"><title>Node4</title>
-<a xlink:href="_f_c_s_result__p_8h.html" target="_top" xlink:title="FCSResult_p.h">
+<a xlink:href="_f_c_s_result__p_8h.html" target="_top" xlink:title="public interface definitions for the FCSResult&#45;object that is used for handling the return state of t...">
 <polygon fill="none" stroke="black" points="96.5,-56.5 96.5,-75.5 179.5,-75.5 179.5,-56.5 96.5,-56.5"/>
 <text text-anchor="middle" x="138" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">FCSResult_p.h</text>
 </a>
