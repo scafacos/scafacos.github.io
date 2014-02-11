@@ -13,7 +13,7 @@ If you are using the library for your research, please cite this homepage with t
 * A. Arnold, M. Bolten, H. Dachsel, F. Fahrenberger, F. Gähler, R. Halver, F. Heber, M. Hofmann,
 C. Holm, J. Iseringhausen, I. Kabadshow, O. Lenz, M. Pippig, D. Potts and G. Sutmann:
 **A Comparison of Scalable Fast Methods for Long-Range Interactions**,
-Phys. Rev. E, 2013 (accepted).
+[Phys. Rev. E, 88(6), 063308, 2013](http://link.aps.org/doi/10.1103/PhysRevE.88.063308).
 [![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](./files/pub/ArBoDa13.pdf)
 [![BibTeX](./files/pic/icon_bibtex_32x32.png "Download BibTeX entry")](./files/bibtex/ArBoDa13.bib)
 
