@@ -32,6 +32,16 @@ SIAM J. Sci. Comput., 35(4), C411–C437, 2013.
 
 ## Proceedings
 
+* M. Hofmann and G. Rünger:
+**Efficient Data Redistribution Methods for Coupled Parallel Particle Codes**.
+In: Proc. of the 42nd International Conference on Parallel Processing (ICPP-2013), pages 40-49, IEEE, 2013.
+[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www.tu-chemnitz.de/informatik/PI/forschung/publikationen/download/HR_icpp13.pdf)
+
+* M. Hofmann and G. Rünger:
+**A Partitioning Algorithm for Parallel Sorting on Distributed Memory Systems**.
+In: IEEE 13th International Conference on High Performance Computing and Communications (HPCC 2011), pages 402-411, IEEE, 2011.
+[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www.tu-chemnitz.de/informatik/PI/forschung/publikationen/download/HR_hpcc11.pdf)
+
 * M. Pippig and D. Potts:
 **Particle Simulation Based on Nonequispaced Fast Fourier Transforms**.
 In: Fast Methods for Long-Range Interactions in Complex Systems, G. Sutmann, P. Gibbon, T. Lippert (Eds), pages 131-158, 2011.
@@ -41,22 +51,22 @@ In: Fast Methods for Long-Range Interactions in Complex Systems, G. Sutmann, P. 
 * M. Hofmann and G. Rünger:
 **A Partitioning Algorithm for Parallel Sorting on Distributed Memory Systems**.
 In: IEEE 13th International Conference on High Performance Computing and Communications (HPCC 2011), pages 402-411, IEEE, 2011.
-[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www.tu-chemnitz.de/informatik/PI/forschung/pub/download/HR_hpcc11.pdf)
+[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www.tu-chemnitz.de/informatik/PI/forschung/publikationen/download/HR_hpcc11.pdf)
 
 * P. Gibbon, M. Hofmann, G. Rünger, and R. Speck:
 **Parallel Sorting Algorithms for Optimizing Particle Simulations**.
 In: IEEE International Conference on Cluster Computing, Workshops and Posters, pages 1-8, IEEE, 2010.
-[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www.tu-chemnitz.de/informatik/PI/forschung/pub/download/HRGS_hpcce10.pdf)
-
-* M. Hofmann and G. Rünger:
-**Fine-grained Data Distribution Operations for Particle Codes**.
-In: 16th European PVM/MPI Users' Group Meeting Conference, pages 54-63, Springer, 2009.
-[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www.tu-chemnitz.de/informatik/PI/forschung/pub/download/HR_europvmmpi09.pdf)
+[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www.tu-chemnitz.de/informatik/PI/forschung/publikationen/download/HRGS_hpcce10.pdf)
 
 * M. Hofmann and G. Rünger:
 **An In-place Algorithm for Irregular All-to-All Communication with Limited Memory**.
 In: 17th European MPI Users' Group Meeting, pages 113-121, Springer, 2010. 
-[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www.tu-chemnitz.de/informatik/PI/forschung/pub/download/HR_europvmmpi10.pdf)
+[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www.tu-chemnitz.de/informatik/PI/forschung/publikationen/download/HR_europvmmpi10.pdf)
+
+* M. Hofmann and G. Rünger:
+**Fine-grained Data Distribution Operations for Particle Codes**.
+In: 16th European PVM/MPI Users' Group Meeting Conference, pages 54-63, Springer, 2009.
+[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](http://www.tu-chemnitz.de/informatik/PI/forschung/publikationen/download/HR_europvmmpi09.pdf)
 
 * R. Speck, P. Gibbon, and M. Hoffmann:
 **Efficiency and scalability of the parallel Barnes-Hut tree code PEPC**.
