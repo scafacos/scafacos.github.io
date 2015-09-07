@@ -82,10 +82,10 @@ This is a list of the corresponding developers of
       <td> Technische Universit&auml;t Chemnitz </td>
     </tr><tr>
       <td> Email: </td>
-      <td> <a href="mailto:michael.pippig@mathematik.tu-chemnitz.de">michael.pippig@mathematik.tu-chemnitz.de</a> </td>
+      <td> <a href="mailto:michael.pippig.tuc@gmail.com">michael.pippig.tuc@gmail.com</a> </td>
     </tr><tr>
       <td> Homepage: </td>
-      <td> <a href="http://www.tu-chemnitz.de/~mpip">http://www.tu-chemnitz.de/~mpip</a> </td>
+      <td> <a href="http://www.tu-chemnitz.de/~potts/workgroup/pippig">http://www.tu-chemnitz.de/~potts/workgroup/pippig</a> </td>
     </tr></table>
   </td>
 </tr></table>
