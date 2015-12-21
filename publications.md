@@ -10,6 +10,12 @@ If you are using the library for your research, please cite this homepage with t
 
 ## Articles
 
+* F. Nestler, M. Pippig und D. Potts:
+**Fast Ewald Summation based on NFFT with Mixed Periodicity
+[J. Comput. Phys., 285, 280-315, 2015](http://dx.doi.org/10.1016/j.jcp.2014.12.052).
+[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](./files/pub/NePiPo13.pdf)
+[![BibTeX](./files/pic/icon_bibtex_32x32.png "Download BibTeX entry")](./files/bibtex/NePiPo13.bib)
+
 * A. Arnold, M. Bolten, H. Dachsel, F. Fahrenberger, F. Gähler, R. Halver, F. Heber, M. Hofmann,
 C. Holm, J. Iseringhausen, I. Kabadshow, O. Lenz, M. Pippig, D. Potts and G. Sutmann:
 **A Comparison of Scalable Fast Methods for Long-Range Interactions**,
