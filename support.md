@@ -73,10 +73,29 @@ This is a list of the corresponding developers of
 
 <table border='0' cellpadding='10'><tr>
   <td width="140">
+    <img src='files/pic/fnestler.jpg' alt='Picture of Franziska Nestler' height='160' width='120' border='0'/>
+    <a id="contact:p2nfft"></a>
+  </td><td valign="top">
+    <b>Franziska Nestler</b> is one of the corresponding developers of the P<sup>2</sup>NFFT method.<br /><br />
+    <table border='0' cellpadding='3'><tr>
+      <td> Affiliation: </td>
+      <td> formerly Technische Universit&auml;t Chemnitz </td>
+    </tr><tr>
+      <td> Email: </td>
+      <td> <a href="mailto:franziska.nestler@mathematik.tu-chemnitz.de">franziska.nestler@mathematik.tu-chemnitz.de</a> </td>
+    </tr><tr>
+      <td> Homepage: </td>
+      <td> <a href="http://www.tu-chemnitz.de/~nesfr">http://www.tu-chemnitz.de/~nesfr</a> </td>
+    </tr></table>
+  </td>
+</tr></table>
+
+<table border='0' cellpadding='10'><tr>
+  <td width="140">
     <img src='files/pic/mpippig.jpg' alt='Picture of Michael Pippig' height='160' width='120' border='0'/>
     <a id="contact:p2nfft"></a>
   </td><td valign="top">
-    <b>Michael Pippig</b> is the corresponding developer of the P<sup>2</sup>NFFT method.<br /><br />
+    <b>Michael Pippig</b> is one of the corresponding developers of the P<sup>2</sup>NFFT method.<br /><br />
     <table border='0' cellpadding='3'><tr>
       <td> Affiliation: </td>
       <td> formerly Technische Universit&auml;t Chemnitz </td>

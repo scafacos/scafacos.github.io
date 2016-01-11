@@ -18,7 +18,7 @@ By appropriate choice of parameters, this framework includes the Particle-Mesh E
 for periodic boundary conditions and the fast summation algorithm
 for non-periodic boundary conditions.
 
-The corresponding developer of this method is [Michael Pippig](./support.html#p2nfft).
+The corresponding developers of this method are [Franziska Nestler and Michael Pippig](./support.html#p2nfft).
 
 ## P<sup>3</sup>M
 The corresponding developer of this method is [Olaf Lenz](./support.html#p3m).
