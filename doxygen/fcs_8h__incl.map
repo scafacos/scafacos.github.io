@@ -1,4 +1,4 @@
 <map id="fcs.h" name="fcs.h">
-<area shape="rect" id="node4" href="$_f_c_s_result__p_8h.html" title="public interface definitions for the FCSResult&#45;object that is used for handling the return state of t..." alt="" coords="173,155,285,181"/>
-<area shape="rect" id="node5" href="$_f_c_s_interface__p_8h.html" title="public interface definitions for the main solver&#45;independent functionality of the ScaFaCoS library ..." alt="" coords="251,80,376,107"/>
+<area shape="rect" id="node4" href="$fcs__result__p_8h.html" title="public interface definitions for the FCSResult&#45;object that is used for handling the return state of t..." alt="" coords="173,155,277,181"/>
+<area shape="rect" id="node5" href="$fcs__interface__p_8h.html" title="public interface definitions for the main solver&#45;independent functionality of the ScaFaCoS library ..." alt="" coords="245,80,368,107"/>
 </map>
