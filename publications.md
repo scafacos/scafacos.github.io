@@ -10,6 +10,12 @@ If you are using the library for your research, please cite this homepage with t
 
 ## Articles
 
+* M. Hofmann, F. Nestler und M. Pippig:
+**NFFT based Ewald summation for electrostatic systems with charges and dipoles**,
+[Appl. Numer. Math., 122, 39-65, 2017](http://dx.doi.org/10.1016/j.apnum.2017.07.008).
+[![PDF](./files/pic/icon_pdf_32x32.png "Download PDF file")](./files/pub/HoNePi17.pdf)
+[![BibTeX](./files/pic/icon_bibtex_32x32.png "Download BibTeX entry")](./files/bibtex/HoNePi17.bib)
+
 * F. Nestler, M. Pippig und D. Potts:
 **Fast Ewald Summation based on NFFT with Mixed Periodicity**,
 [J. Comput. Phys., 285, 280-315, 2015](http://dx.doi.org/10.1016/j.jcp.2014.12.052).
